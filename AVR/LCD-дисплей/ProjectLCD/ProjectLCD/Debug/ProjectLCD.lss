@@ -3,29 +3,29 @@ ProjectLCD.elf:     file format elf32-avr
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         0000024c  00000000  00000000  00000074  2**1
+  0 .text         000002f4  00000000  00000000  00000074  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000010  00800060  0000024c  000002c0  2**0
+  1 .data         00000086  00800060  000002f4  00000368  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .comment      00000030  00000000  00000000  000002d0  2**0
+  2 .comment      00000030  00000000  00000000  000003ee  2**0
                   CONTENTS, READONLY
-  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000300  2**2
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000420  2**2
                   CONTENTS, READONLY
-  4 .debug_aranges 00000078  00000000  00000000  0000033c  2**0
+  4 .debug_aranges 00000080  00000000  00000000  0000045c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   00000cbe  00000000  00000000  000003b4  2**0
+  5 .debug_info   00000ef2  00000000  00000000  000004dc  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 000006f2  00000000  00000000  00001072  2**0
+  6 .debug_abbrev 000007b7  00000000  00000000  000013ce  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   000004b8  00000000  00000000  00001764  2**0
+  7 .debug_line   00000630  00000000  00000000  00001b85  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  000000e0  00000000  00000000  00001c1c  2**2
+  8 .debug_frame  00000104  00000000  00000000  000021b8  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    000003da  00000000  00000000  00001cfc  2**0
+  9 .debug_str    00000411  00000000  00000000  000022bc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    000004a1  00000000  00000000  000020d6  2**0
+ 10 .debug_loc    000004fe  00000000  00000000  000026cd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000058  00000000  00000000  00002577  2**0
+ 11 .debug_ranges 00000060  00000000  00000000  00002bcb  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -65,16 +65,16 @@ Disassembly of section .text:
   60:	10 e0       	ldi	r17, 0x00	; 0
   62:	a0 e6       	ldi	r26, 0x60	; 96
   64:	b0 e0       	ldi	r27, 0x00	; 0
-  66:	ec e4       	ldi	r30, 0x4C	; 76
+  66:	e4 ef       	ldi	r30, 0xF4	; 244
   68:	f2 e0       	ldi	r31, 0x02	; 2
   6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
   6c:	05 90       	lpm	r0, Z+
   6e:	0d 92       	st	X+, r0
-  70:	a0 37       	cpi	r26, 0x70	; 112
+  70:	a6 3e       	cpi	r26, 0xE6	; 230
   72:	b1 07       	cpc	r27, r17
   74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
-  76:	0e 94 17 01 	call	0x22e	; 0x22e <main>
-  7a:	0c 94 24 01 	jmp	0x248	; 0x248 <_exit>
+  76:	0e 94 44 01 	call	0x288	; 0x288 <main>
+  7a:	0c 94 78 01 	jmp	0x2f0	; 0x2f0 <_exit>
 
 0000007e <__bad_interrupt>:
   7e:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
@@ -465,28 +465,148 @@ void lcd_gotoxy(char x, char y)
  22a:	cf 91       	pop	r28
  22c:	08 95       	ret
 
-0000022e <main>:
-#include "Main.h"
+0000022e <LCD_printStringXY>:
 
+/*
+===============================Функция печати строки по координатам==========================
+*/
+void LCD_printStringXY(char *str,uint8_t x,uint8_t y)
+{
+ 22e:	cf 93       	push	r28
+ 230:	df 93       	push	r29
+ 232:	ec 01       	movw	r28, r24
+ 234:	86 2f       	mov	r24, r22
+	lcd_gotoxy(x,y);
+ 236:	64 2f       	mov	r22, r20
+ 238:	0e 94 d6 00 	call	0x1ac	; 0x1ac <lcd_gotoxy>
+	Lcd_PrintString(str);
+ 23c:	ce 01       	movw	r24, r28
+ 23e:	0e 94 c0 00 	call	0x180	; 0x180 <Lcd_PrintString>
+}
+ 242:	df 91       	pop	r29
+ 244:	cf 91       	pop	r28
+ 246:	08 95       	ret
+
+00000248 <InitCustomeChars>:
+
+/*
+==========Функция записи пользовательского символа========================
+*/
+void InitCustomeChars(void)
+{
+ 248:	0f 93       	push	r16
+ 24a:	1f 93       	push	r17
+ 24c:	cf 93       	push	r28
+ 24e:	df 93       	push	r29
+	char i;
+	LCD_SendCommand(0x04);	//устанавливаем CGRAM Adress
+ 250:	84 e0       	ldi	r24, 0x04	; 4
+ 252:	0e 94 56 00 	call	0xac	; 0xac <LCD_SendCommand>
+	LCD_SendCommand(0x00);	//устанавливаем CGRAM Adress
+ 256:	80 e0       	ldi	r24, 0x00	; 0
+ 258:	0e 94 56 00 	call	0xac	; 0xac <LCD_SendCommand>
+ 25c:	c6 e6       	ldi	r28, 0x66	; 102
+ 25e:	d0 e0       	ldi	r29, 0x00	; 0
+ 260:	06 ee       	ldi	r16, 0xE6	; 230
+ 262:	10 e0       	ldi	r17, 0x00	; 0
+	for(i=0;i<=63;i++)
+	{
+		Lcd_Print_char((char)MyChar5x8[i]);
+ 264:	88 81       	ld	r24, Y
+ 266:	22 96       	adiw	r28, 0x02	; 2
+ 268:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+void InitCustomeChars(void)
+{
+	char i;
+	LCD_SendCommand(0x04);	//устанавливаем CGRAM Adress
+	LCD_SendCommand(0x00);	//устанавливаем CGRAM Adress
+	for(i=0;i<=63;i++)
+ 26c:	c0 17       	cp	r28, r16
+ 26e:	d1 07       	cpc	r29, r17
+ 270:	c9 f7       	brne	.-14     	; 0x264 <InitCustomeChars+0x1c>
+	{
+		Lcd_Print_char((char)MyChar5x8[i]);
+	}
+	LCD_SendCommand(0);
+ 272:	80 e0       	ldi	r24, 0x00	; 0
+ 274:	0e 94 56 00 	call	0xac	; 0xac <LCD_SendCommand>
+	LCD_SendCommand(2);
+ 278:	82 e0       	ldi	r24, 0x02	; 2
+ 27a:	0e 94 56 00 	call	0xac	; 0xac <LCD_SendCommand>
+
+}
+ 27e:	df 91       	pop	r29
+ 280:	cf 91       	pop	r28
+ 282:	1f 91       	pop	r17
+ 284:	0f 91       	pop	r16
+ 286:	08 95       	ret
+
+00000288 <main>:
+	0x00, 0x00, 0x0E, 0x11, 0x11, 0x0A, 0x1B, 0x00  // Code for char num #7
+};
 
 int main(void)
 {
    LCD_Init();
- 22e:	0e 94 62 00 	call	0xc4	; 0xc4 <LCD_Init>
+ 288:	0e 94 62 00 	call	0xc4	; 0xc4 <LCD_Init>
    Lcd_Clear();
- 232:	0e 94 cf 00 	call	0x19e	; 0x19e <Lcd_Clear>
-   lcd_gotoxy(0,0);
- 236:	60 e0       	ldi	r22, 0x00	; 0
- 238:	80 e0       	ldi	r24, 0x00	; 0
- 23a:	0e 94 d6 00 	call	0x1ac	; 0x1ac <lcd_gotoxy>
-   Lcd_PrintString("Hello World!!!");
- 23e:	80 e6       	ldi	r24, 0x60	; 96
- 240:	90 e0       	ldi	r25, 0x00	; 0
- 242:	0e 94 c0 00 	call	0x180	; 0x180 <Lcd_PrintString>
- 246:	ff cf       	rjmp	.-2      	; 0x246 <main+0x18>
+ 28c:	0e 94 cf 00 	call	0x19e	; 0x19e <Lcd_Clear>
+//    lcd_gotoxy(0,0);
+//    Lcd_PrintString("Hello World!!!");
+	InitCustomeChars();
+ 290:	0e 94 24 01 	call	0x248	; 0x248 <InitCustomeChars>
 
-00000248 <_exit>:
- 248:	f8 94       	cli
+    while (1) 
+    {
+	Lcd_Clear();
+ 294:	0e 94 cf 00 	call	0x19e	; 0x19e <Lcd_Clear>
+	lcd_gotoxy(1,1);
+ 298:	61 e0       	ldi	r22, 0x01	; 1
+ 29a:	81 e0       	ldi	r24, 0x01	; 1
+ 29c:	0e 94 d6 00 	call	0x1ac	; 0x1ac <lcd_gotoxy>
+	Lcd_Print_char(0);
+ 2a0:	80 e0       	ldi	r24, 0x00	; 0
+ 2a2:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(1);
+ 2a6:	81 e0       	ldi	r24, 0x01	; 1
+ 2a8:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(2);
+ 2ac:	82 e0       	ldi	r24, 0x02	; 2
+ 2ae:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(3);
+ 2b2:	83 e0       	ldi	r24, 0x03	; 3
+ 2b4:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(4);
+ 2b8:	84 e0       	ldi	r24, 0x04	; 4
+ 2ba:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(5);
+ 2be:	85 e0       	ldi	r24, 0x05	; 5
+ 2c0:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(6);
+ 2c4:	86 e0       	ldi	r24, 0x06	; 6
+ 2c6:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	Lcd_Print_char(7);
+ 2ca:	87 e0       	ldi	r24, 0x07	; 7
+ 2cc:	0e 94 a9 00 	call	0x152	; 0x152 <Lcd_Print_char>
+	LCD_printStringXY("Hello",2,2);
+ 2d0:	42 e0       	ldi	r20, 0x02	; 2
+ 2d2:	62 e0       	ldi	r22, 0x02	; 2
+ 2d4:	80 e6       	ldi	r24, 0x60	; 96
+ 2d6:	90 e0       	ldi	r25, 0x00	; 0
+ 2d8:	0e 94 17 01 	call	0x22e	; 0x22e <LCD_printStringXY>
+ 2dc:	2f ef       	ldi	r18, 0xFF	; 255
+ 2de:	89 e6       	ldi	r24, 0x69	; 105
+ 2e0:	98 e1       	ldi	r25, 0x18	; 24
+ 2e2:	21 50       	subi	r18, 0x01	; 1
+ 2e4:	80 40       	sbci	r24, 0x00	; 0
+ 2e6:	90 40       	sbci	r25, 0x00	; 0
+ 2e8:	e1 f7       	brne	.-8      	; 0x2e2 <main+0x5a>
+ 2ea:	00 c0       	rjmp	.+0      	; 0x2ec <main+0x64>
+ 2ec:	00 00       	nop
+ 2ee:	d2 cf       	rjmp	.-92     	; 0x294 <main+0xc>
 
-0000024a <__stop_program>:
- 24a:	ff cf       	rjmp	.-2      	; 0x24a <__stop_program>
+000002f0 <_exit>:
+ 2f0:	f8 94       	cli
+
+000002f2 <__stop_program>:
+ 2f2:	ff cf       	rjmp	.-2      	; 0x2f2 <__stop_program>

@@ -1,0 +1,634 @@
+
+GLD_Project.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000464  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         0000000a  00800060  00000464  000004f8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000002  0080006a  0080006a  00000502  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  00000502  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000534  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 000000b0  00000000  00000000  00000570  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   00001079  00000000  00000000  00000620  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 000007b6  00000000  00000000  00001699  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   0000060c  00000000  00000000  00001e4f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  000001dc  00000000  00000000  0000245c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    000004e6  00000000  00000000  00002638  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    000008f6  00000000  00000000  00002b1e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000090  00000000  00000000  00003414  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 1a 01 	jmp	0x234	; 0x234 <__ctors_end>
+   4:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+   8:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+   c:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  10:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  14:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  18:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  1c:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  20:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  24:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  28:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  2c:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  30:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  34:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  38:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  3c:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  40:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  44:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  48:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  4c:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+  50:	0c 94 37 01 	jmp	0x26e	; 0x26e <__bad_interrupt>
+
+00000054 <__trampolines_end>:
+  54:	00 00       	nop
+  56:	00 00       	nop
+  58:	00 00       	nop
+  5a:	00 5f       	subi	r16, 0xF0	; 240
+  5c:	00 00       	nop
+  5e:	00 07       	cpc	r16, r16
+  60:	00 07       	cpc	r16, r16
+  62:	00 14       	cp	r0, r0
+  64:	7f 14       	cp	r7, r15
+  66:	7f 14       	cp	r7, r15
+  68:	24 2a       	or	r2, r20
+  6a:	7f 2a       	or	r7, r31
+  6c:	12 23       	and	r17, r18
+  6e:	13 08       	sbc	r1, r3
+  70:	64 62       	ori	r22, 0x24	; 36
+  72:	36 49       	sbci	r19, 0x96	; 150
+  74:	55 22       	and	r5, r21
+  76:	50 00       	.word	0x0050	; ????
+  78:	05 03       	mulsu	r16, r21
+  7a:	00 00       	nop
+  7c:	00 1c       	adc	r0, r0
+  7e:	22 41       	sbci	r18, 0x12	; 18
+  80:	00 00       	nop
+  82:	41 22       	and	r4, r17
+  84:	1c 00       	.word	0x001c	; ????
+  86:	08 2a       	or	r0, r24
+  88:	1c 2a       	or	r1, r28
+  8a:	08 08       	sbc	r0, r8
+  8c:	08 3e       	cpi	r16, 0xE8	; 232
+  8e:	08 08       	sbc	r0, r8
+  90:	00 50       	subi	r16, 0x00	; 0
+  92:	30 00       	.word	0x0030	; ????
+  94:	00 08       	sbc	r0, r0
+  96:	08 08       	sbc	r0, r8
+  98:	08 08       	sbc	r0, r8
+  9a:	00 30       	cpi	r16, 0x00	; 0
+  9c:	30 00       	.word	0x0030	; ????
+  9e:	00 20       	and	r0, r0
+  a0:	10 08       	sbc	r1, r0
+  a2:	04 02       	muls	r16, r20
+  a4:	3e 51       	subi	r19, 0x1E	; 30
+  a6:	49 45       	sbci	r20, 0x59	; 89
+  a8:	3e 00       	.word	0x003e	; ????
+  aa:	42 7f       	andi	r20, 0xF2	; 242
+  ac:	40 00       	.word	0x0040	; ????
+  ae:	42 61       	ori	r20, 0x12	; 18
+  b0:	51 49       	sbci	r21, 0x91	; 145
+  b2:	46 21       	and	r20, r6
+  b4:	41 45       	sbci	r20, 0x51	; 81
+  b6:	4b 31       	cpi	r20, 0x1B	; 27
+  b8:	18 14       	cp	r1, r8
+  ba:	12 7f       	andi	r17, 0xF2	; 242
+  bc:	10 27       	eor	r17, r16
+  be:	45 45       	sbci	r20, 0x55	; 85
+  c0:	45 39       	cpi	r20, 0x95	; 149
+  c2:	3c 4a       	sbci	r19, 0xAC	; 172
+  c4:	49 49       	sbci	r20, 0x99	; 153
+  c6:	30 01       	movw	r6, r0
+  c8:	71 09       	sbc	r23, r1
+  ca:	05 03       	mulsu	r16, r21
+  cc:	36 49       	sbci	r19, 0x96	; 150
+  ce:	49 49       	sbci	r20, 0x99	; 153
+  d0:	36 06       	cpc	r3, r22
+  d2:	49 49       	sbci	r20, 0x99	; 153
+  d4:	29 1e       	adc	r2, r25
+  d6:	00 36       	cpi	r16, 0x60	; 96
+  d8:	36 00       	.word	0x0036	; ????
+  da:	00 00       	nop
+  dc:	56 36       	cpi	r21, 0x66	; 102
+  de:	00 00       	nop
+  e0:	00 08       	sbc	r0, r0
+  e2:	14 22       	and	r1, r20
+  e4:	41 14       	cp	r4, r1
+  e6:	14 14       	cp	r1, r4
+  e8:	14 14       	cp	r1, r4
+  ea:	41 22       	and	r4, r17
+  ec:	14 08       	sbc	r1, r4
+  ee:	00 02       	muls	r16, r16
+  f0:	01 51       	subi	r16, 0x11	; 17
+  f2:	09 06       	cpc	r0, r25
+  f4:	32 49       	sbci	r19, 0x92	; 146
+  f6:	79 41       	sbci	r23, 0x19	; 25
+  f8:	3e 7e       	andi	r19, 0xEE	; 238
+  fa:	11 11       	cpse	r17, r1
+  fc:	11 7e       	andi	r17, 0xE1	; 225
+  fe:	7f 49       	sbci	r23, 0x9F	; 159
+ 100:	49 49       	sbci	r20, 0x99	; 153
+ 102:	36 3e       	cpi	r19, 0xE6	; 230
+ 104:	41 41       	sbci	r20, 0x11	; 17
+ 106:	41 22       	and	r4, r17
+ 108:	7f 41       	sbci	r23, 0x1F	; 31
+ 10a:	41 22       	and	r4, r17
+ 10c:	1c 7f       	andi	r17, 0xFC	; 252
+ 10e:	49 49       	sbci	r20, 0x99	; 153
+ 110:	49 41       	sbci	r20, 0x19	; 25
+ 112:	7f 09       	sbc	r23, r15
+ 114:	09 01       	movw	r0, r18
+ 116:	01 3e       	cpi	r16, 0xE1	; 225
+ 118:	41 41       	sbci	r20, 0x11	; 17
+ 11a:	51 32       	cpi	r21, 0x21	; 33
+ 11c:	7f 08       	sbc	r7, r15
+ 11e:	08 08       	sbc	r0, r8
+ 120:	7f 00       	.word	0x007f	; ????
+ 122:	41 7f       	andi	r20, 0xF1	; 241
+ 124:	41 00       	.word	0x0041	; ????
+ 126:	20 40       	sbci	r18, 0x00	; 0
+ 128:	41 3f       	cpi	r20, 0xF1	; 241
+ 12a:	01 7f       	andi	r16, 0xF1	; 241
+ 12c:	08 14       	cp	r0, r8
+ 12e:	22 41       	sbci	r18, 0x12	; 18
+ 130:	7f 40       	sbci	r23, 0x0F	; 15
+ 132:	40 40       	sbci	r20, 0x00	; 0
+ 134:	40 7f       	andi	r20, 0xF0	; 240
+ 136:	02 04       	cpc	r0, r2
+ 138:	02 7f       	andi	r16, 0xF2	; 242
+ 13a:	7f 04       	cpc	r7, r15
+ 13c:	08 10       	cpse	r0, r8
+ 13e:	7f 3e       	cpi	r23, 0xEF	; 239
+ 140:	41 41       	sbci	r20, 0x11	; 17
+ 142:	41 3e       	cpi	r20, 0xE1	; 225
+ 144:	7f 09       	sbc	r23, r15
+ 146:	09 09       	sbc	r16, r9
+ 148:	06 3e       	cpi	r16, 0xE6	; 230
+ 14a:	41 51       	subi	r20, 0x11	; 17
+ 14c:	21 5e       	subi	r18, 0xE1	; 225
+ 14e:	7f 09       	sbc	r23, r15
+ 150:	19 29       	or	r17, r9
+ 152:	46 46       	sbci	r20, 0x66	; 102
+ 154:	49 49       	sbci	r20, 0x99	; 153
+ 156:	49 31       	cpi	r20, 0x19	; 25
+ 158:	01 01       	movw	r0, r2
+ 15a:	7f 01       	movw	r14, r30
+ 15c:	01 3f       	cpi	r16, 0xF1	; 241
+ 15e:	40 40       	sbci	r20, 0x00	; 0
+ 160:	40 3f       	cpi	r20, 0xF0	; 240
+ 162:	1f 20       	and	r1, r15
+ 164:	40 20       	and	r4, r0
+ 166:	1f 7f       	andi	r17, 0xFF	; 255
+ 168:	20 18       	sub	r2, r0
+ 16a:	20 7f       	andi	r18, 0xF0	; 240
+ 16c:	63 14       	cp	r6, r3
+ 16e:	08 14       	cp	r0, r8
+ 170:	63 03       	mulsu	r22, r19
+ 172:	04 78       	andi	r16, 0x84	; 132
+ 174:	04 03       	mulsu	r16, r20
+ 176:	61 51       	subi	r22, 0x11	; 17
+ 178:	49 45       	sbci	r20, 0x59	; 89
+ 17a:	43 00       	.word	0x0043	; ????
+ 17c:	00 7f       	andi	r16, 0xF0	; 240
+ 17e:	41 41       	sbci	r20, 0x11	; 17
+ 180:	02 04       	cpc	r0, r2
+ 182:	08 10       	cpse	r0, r8
+ 184:	20 41       	sbci	r18, 0x10	; 16
+ 186:	41 7f       	andi	r20, 0xF1	; 241
+ 188:	00 00       	nop
+ 18a:	04 02       	muls	r16, r20
+ 18c:	01 02       	muls	r16, r17
+ 18e:	04 40       	sbci	r16, 0x04	; 4
+ 190:	40 40       	sbci	r20, 0x00	; 0
+ 192:	40 40       	sbci	r20, 0x00	; 0
+ 194:	00 01       	movw	r0, r0
+ 196:	02 04       	cpc	r0, r2
+ 198:	00 20       	and	r0, r0
+ 19a:	54 54       	subi	r21, 0x44	; 68
+ 19c:	54 78       	andi	r21, 0x84	; 132
+ 19e:	7f 48       	sbci	r23, 0x8F	; 143
+ 1a0:	44 44       	sbci	r20, 0x44	; 68
+ 1a2:	38 38       	cpi	r19, 0x88	; 136
+ 1a4:	44 44       	sbci	r20, 0x44	; 68
+ 1a6:	44 20       	and	r4, r4
+ 1a8:	38 44       	sbci	r19, 0x48	; 72
+ 1aa:	44 48       	sbci	r20, 0x84	; 132
+ 1ac:	7f 38       	cpi	r23, 0x8F	; 143
+ 1ae:	54 54       	subi	r21, 0x44	; 68
+ 1b0:	54 18       	sub	r5, r4
+ 1b2:	08 7e       	andi	r16, 0xE8	; 232
+ 1b4:	09 01       	movw	r0, r18
+ 1b6:	02 08       	sbc	r0, r2
+ 1b8:	14 54       	subi	r17, 0x44	; 68
+ 1ba:	54 3c       	cpi	r21, 0xC4	; 196
+ 1bc:	7f 08       	sbc	r7, r15
+ 1be:	04 04       	cpc	r0, r4
+ 1c0:	78 00       	.word	0x0078	; ????
+ 1c2:	44 7d       	andi	r20, 0xD4	; 212
+ 1c4:	40 00       	.word	0x0040	; ????
+ 1c6:	20 40       	sbci	r18, 0x00	; 0
+ 1c8:	44 3d       	cpi	r20, 0xD4	; 212
+ 1ca:	00 00       	nop
+ 1cc:	7f 10       	cpse	r7, r15
+ 1ce:	28 44       	sbci	r18, 0x48	; 72
+ 1d0:	00 41       	sbci	r16, 0x10	; 16
+ 1d2:	7f 40       	sbci	r23, 0x0F	; 15
+ 1d4:	00 7c       	andi	r16, 0xC0	; 192
+ 1d6:	04 18       	sub	r0, r4
+ 1d8:	04 78       	andi	r16, 0x84	; 132
+ 1da:	7c 08       	sbc	r7, r12
+ 1dc:	04 04       	cpc	r0, r4
+ 1de:	78 38       	cpi	r23, 0x88	; 136
+ 1e0:	44 44       	sbci	r20, 0x44	; 68
+ 1e2:	44 38       	cpi	r20, 0x84	; 132
+ 1e4:	7c 14       	cp	r7, r12
+ 1e6:	14 14       	cp	r1, r4
+ 1e8:	08 08       	sbc	r0, r8
+ 1ea:	14 14       	cp	r1, r4
+ 1ec:	18 7c       	andi	r17, 0xC8	; 200
+ 1ee:	7c 08       	sbc	r7, r12
+ 1f0:	04 04       	cpc	r0, r4
+ 1f2:	08 48       	sbci	r16, 0x88	; 136
+ 1f4:	54 54       	subi	r21, 0x44	; 68
+ 1f6:	54 20       	and	r5, r4
+ 1f8:	04 3f       	cpi	r16, 0xF4	; 244
+ 1fa:	44 40       	sbci	r20, 0x04	; 4
+ 1fc:	20 3c       	cpi	r18, 0xC0	; 192
+ 1fe:	40 40       	sbci	r20, 0x00	; 0
+ 200:	20 7c       	andi	r18, 0xC0	; 192
+ 202:	1c 20       	and	r1, r12
+ 204:	40 20       	and	r4, r0
+ 206:	1c 3c       	cpi	r17, 0xCC	; 204
+ 208:	40 30       	cpi	r20, 0x00	; 0
+ 20a:	40 3c       	cpi	r20, 0xC0	; 192
+ 20c:	44 28       	or	r4, r4
+ 20e:	10 28       	or	r1, r0
+ 210:	44 0c       	add	r4, r4
+ 212:	50 50       	subi	r21, 0x00	; 0
+ 214:	50 3c       	cpi	r21, 0xC0	; 192
+ 216:	44 64       	ori	r20, 0x44	; 68
+ 218:	54 4c       	sbci	r21, 0xC4	; 196
+ 21a:	44 00       	.word	0x0044	; ????
+ 21c:	08 36       	cpi	r16, 0x68	; 104
+ 21e:	41 00       	.word	0x0041	; ????
+ 220:	00 00       	nop
+ 222:	7f 00       	.word	0x007f	; ????
+ 224:	00 00       	nop
+ 226:	41 36       	cpi	r20, 0x61	; 97
+ 228:	08 00       	.word	0x0008	; ????
+ 22a:	08 08       	sbc	r0, r8
+ 22c:	2a 1c       	adc	r2, r10
+ 22e:	08 08       	sbc	r0, r8
+ 230:	1c 2a       	or	r1, r28
+ 232:	08 08       	sbc	r0, r8
+
+00000234 <__ctors_end>:
+ 234:	11 24       	eor	r1, r1
+ 236:	1f be       	out	0x3f, r1	; 63
+ 238:	cf e5       	ldi	r28, 0x5F	; 95
+ 23a:	d4 e0       	ldi	r29, 0x04	; 4
+ 23c:	de bf       	out	0x3e, r29	; 62
+ 23e:	cd bf       	out	0x3d, r28	; 61
+
+00000240 <__do_copy_data>:
+ 240:	10 e0       	ldi	r17, 0x00	; 0
+ 242:	a0 e6       	ldi	r26, 0x60	; 96
+ 244:	b0 e0       	ldi	r27, 0x00	; 0
+ 246:	e4 e6       	ldi	r30, 0x64	; 100
+ 248:	f4 e0       	ldi	r31, 0x04	; 4
+ 24a:	02 c0       	rjmp	.+4      	; 0x250 <__do_copy_data+0x10>
+ 24c:	05 90       	lpm	r0, Z+
+ 24e:	0d 92       	st	X+, r0
+ 250:	aa 36       	cpi	r26, 0x6A	; 106
+ 252:	b1 07       	cpc	r27, r17
+ 254:	d9 f7       	brne	.-10     	; 0x24c <__do_copy_data+0xc>
+
+00000256 <__do_clear_bss>:
+ 256:	20 e0       	ldi	r18, 0x00	; 0
+ 258:	aa e6       	ldi	r26, 0x6A	; 106
+ 25a:	b0 e0       	ldi	r27, 0x00	; 0
+ 25c:	01 c0       	rjmp	.+2      	; 0x260 <.do_clear_bss_start>
+
+0000025e <.do_clear_bss_loop>:
+ 25e:	1d 92       	st	X+, r1
+
+00000260 <.do_clear_bss_start>:
+ 260:	ac 36       	cpi	r26, 0x6C	; 108
+ 262:	b2 07       	cpc	r27, r18
+ 264:	e1 f7       	brne	.-8      	; 0x25e <.do_clear_bss_loop>
+ 266:	0e 94 25 02 	call	0x44a	; 0x44a <main>
+ 26a:	0c 94 30 02 	jmp	0x460	; 0x460 <_exit>
+
+0000026e <__bad_interrupt>:
+ 26e:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000272 <GLCD_EnableController>:
+	{
+		GLCD_GoTo(0,j);
+		for(i = 0; i < KS0108_SCREEN_WIDTH; i++)
+		GLCD_WriteData(0x00);
+	}
+}
+ 272:	88 23       	and	r24, r24
+ 274:	19 f0       	breq	.+6      	; 0x27c <GLCD_EnableController+0xa>
+ 276:	81 30       	cpi	r24, 0x01	; 1
+ 278:	19 f0       	breq	.+6      	; 0x280 <GLCD_EnableController+0xe>
+ 27a:	08 95       	ret
+ 27c:	a8 98       	cbi	0x15, 0	; 21
+ 27e:	08 95       	ret
+ 280:	a9 98       	cbi	0x15, 1	; 21
+ 282:	08 95       	ret
+
+00000284 <GLCD_DisableController>:
+ 284:	88 23       	and	r24, r24
+ 286:	19 f0       	breq	.+6      	; 0x28e <GLCD_DisableController+0xa>
+ 288:	81 30       	cpi	r24, 0x01	; 1
+ 28a:	19 f0       	breq	.+6      	; 0x292 <GLCD_DisableController+0xe>
+ 28c:	08 95       	ret
+ 28e:	a8 9a       	sbi	0x15, 0	; 21
+ 290:	08 95       	ret
+ 292:	a9 9a       	sbi	0x15, 1	; 21
+ 294:	08 95       	ret
+
+00000296 <GLCD_ReadStatus>:
+ 296:	cf 93       	push	r28
+ 298:	df 93       	push	r29
+ 29a:	c8 2f       	mov	r28, r24
+ 29c:	1a ba       	out	0x1a, r1	; 26
+ 29e:	aa 9a       	sbi	0x15, 2	; 21
+ 2a0:	ab 98       	cbi	0x15, 3	; 21
+ 2a2:	0e 94 39 01 	call	0x272	; 0x272 <GLCD_EnableController>
+ 2a6:	ac 9a       	sbi	0x15, 4	; 21
+ 2a8:	85 e0       	ldi	r24, 0x05	; 5
+ 2aa:	8a 95       	dec	r24
+ 2ac:	f1 f7       	brne	.-4      	; 0x2aa <GLCD_ReadStatus+0x14>
+ 2ae:	00 00       	nop
+ 2b0:	d9 b3       	in	r29, 0x19	; 25
+ 2b2:	ac 98       	cbi	0x15, 4	; 21
+ 2b4:	8c 2f       	mov	r24, r28
+ 2b6:	0e 94 42 01 	call	0x284	; 0x284 <GLCD_DisableController>
+ 2ba:	8d 2f       	mov	r24, r29
+ 2bc:	df 91       	pop	r29
+ 2be:	cf 91       	pop	r28
+ 2c0:	08 95       	ret
+
+000002c2 <GLCD_WriteCommand>:
+ 2c2:	cf 93       	push	r28
+ 2c4:	df 93       	push	r29
+ 2c6:	d8 2f       	mov	r29, r24
+ 2c8:	c6 2f       	mov	r28, r22
+ 2ca:	8c 2f       	mov	r24, r28
+ 2cc:	0e 94 4b 01 	call	0x296	; 0x296 <GLCD_ReadStatus>
+ 2d0:	88 23       	and	r24, r24
+ 2d2:	dc f3       	brlt	.-10     	; 0x2ca <GLCD_WriteCommand+0x8>
+ 2d4:	8f ef       	ldi	r24, 0xFF	; 255
+ 2d6:	8a bb       	out	0x1a, r24	; 26
+ 2d8:	ab 98       	cbi	0x15, 3	; 21
+ 2da:	aa 98       	cbi	0x15, 2	; 21
+ 2dc:	8c 2f       	mov	r24, r28
+ 2de:	0e 94 39 01 	call	0x272	; 0x272 <GLCD_EnableController>
+ 2e2:	db bb       	out	0x1b, r29	; 27
+ 2e4:	ac 9a       	sbi	0x15, 4	; 21
+ 2e6:	85 e0       	ldi	r24, 0x05	; 5
+ 2e8:	8a 95       	dec	r24
+ 2ea:	f1 f7       	brne	.-4      	; 0x2e8 <GLCD_WriteCommand+0x26>
+ 2ec:	00 00       	nop
+ 2ee:	ac 98       	cbi	0x15, 4	; 21
+ 2f0:	8c 2f       	mov	r24, r28
+ 2f2:	0e 94 42 01 	call	0x284	; 0x284 <GLCD_DisableController>
+ 2f6:	df 91       	pop	r29
+ 2f8:	cf 91       	pop	r28
+ 2fa:	08 95       	ret
+
+000002fc <GLCD_WriteData>:
+ 2fc:	cf 93       	push	r28
+ 2fe:	c8 2f       	mov	r28, r24
+ 300:	80 91 6b 00 	lds	r24, 0x006B	; 0x80006b <screen_x>
+ 304:	82 95       	swap	r24
+ 306:	86 95       	lsr	r24
+ 308:	86 95       	lsr	r24
+ 30a:	83 70       	andi	r24, 0x03	; 3
+ 30c:	0e 94 4b 01 	call	0x296	; 0x296 <GLCD_ReadStatus>
+ 310:	88 23       	and	r24, r24
+ 312:	b4 f3       	brlt	.-20     	; 0x300 <GLCD_WriteData+0x4>
+ 314:	8f ef       	ldi	r24, 0xFF	; 255
+ 316:	8a bb       	out	0x1a, r24	; 26
+ 318:	aa 98       	cbi	0x15, 2	; 21
+ 31a:	ab 9a       	sbi	0x15, 3	; 21
+ 31c:	cb bb       	out	0x1b, r28	; 27
+ 31e:	80 91 6b 00 	lds	r24, 0x006B	; 0x80006b <screen_x>
+ 322:	82 95       	swap	r24
+ 324:	86 95       	lsr	r24
+ 326:	86 95       	lsr	r24
+ 328:	83 70       	andi	r24, 0x03	; 3
+ 32a:	0e 94 39 01 	call	0x272	; 0x272 <GLCD_EnableController>
+ 32e:	ac 9a       	sbi	0x15, 4	; 21
+ 330:	85 e0       	ldi	r24, 0x05	; 5
+ 332:	8a 95       	dec	r24
+ 334:	f1 f7       	brne	.-4      	; 0x332 <GLCD_WriteData+0x36>
+ 336:	00 00       	nop
+ 338:	ac 98       	cbi	0x15, 4	; 21
+ 33a:	80 91 6b 00 	lds	r24, 0x006B	; 0x80006b <screen_x>
+ 33e:	82 95       	swap	r24
+ 340:	86 95       	lsr	r24
+ 342:	86 95       	lsr	r24
+ 344:	83 70       	andi	r24, 0x03	; 3
+ 346:	0e 94 42 01 	call	0x284	; 0x284 <GLCD_DisableController>
+ 34a:	80 91 6b 00 	lds	r24, 0x006B	; 0x80006b <screen_x>
+ 34e:	8f 5f       	subi	r24, 0xFF	; 255
+ 350:	80 93 6b 00 	sts	0x006B, r24	; 0x80006b <screen_x>
+ 354:	cf 91       	pop	r28
+ 356:	08 95       	ret
+
+00000358 <GLCD_InitalizePorts>:
+ 358:	84 b3       	in	r24, 0x14	; 20
+ 35a:	8f 63       	ori	r24, 0x3F	; 63
+ 35c:	84 bb       	out	0x14, r24	; 20
+ 35e:	ad 9a       	sbi	0x15, 5	; 21
+ 360:	a8 9a       	sbi	0x15, 0	; 21
+ 362:	a9 9a       	sbi	0x15, 1	; 21
+ 364:	08 95       	ret
+
+00000366 <GLCD_Initalize>:
+ 366:	0e 94 ac 01 	call	0x358	; 0x358 <GLCD_InitalizePorts>
+ 36a:	60 e0       	ldi	r22, 0x00	; 0
+ 36c:	8f e3       	ldi	r24, 0x3F	; 63
+ 36e:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 372:	61 e0       	ldi	r22, 0x01	; 1
+ 374:	8f e3       	ldi	r24, 0x3F	; 63
+ 376:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 37a:	08 95       	ret
+
+0000037c <GLCD_GoTo>:
+ 37c:	1f 93       	push	r17
+ 37e:	cf 93       	push	r28
+ 380:	df 93       	push	r29
+ 382:	d8 2f       	mov	r29, r24
+ 384:	c6 2f       	mov	r28, r22
+ 386:	80 93 6b 00 	sts	0x006B, r24	; 0x80006b <screen_x>
+ 38a:	60 93 6a 00 	sts	0x006A, r22	; 0x80006a <__data_end>
+ 38e:	60 e0       	ldi	r22, 0x00	; 0
+ 390:	80 e4       	ldi	r24, 0x40	; 64
+ 392:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 396:	c8 6b       	ori	r28, 0xB8	; 184
+ 398:	60 e0       	ldi	r22, 0x00	; 0
+ 39a:	8c 2f       	mov	r24, r28
+ 39c:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3a0:	60 e0       	ldi	r22, 0x00	; 0
+ 3a2:	80 ec       	ldi	r24, 0xC0	; 192
+ 3a4:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3a8:	61 e0       	ldi	r22, 0x01	; 1
+ 3aa:	80 e4       	ldi	r24, 0x40	; 64
+ 3ac:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3b0:	61 e0       	ldi	r22, 0x01	; 1
+ 3b2:	8c 2f       	mov	r24, r28
+ 3b4:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3b8:	61 e0       	ldi	r22, 0x01	; 1
+ 3ba:	80 ec       	ldi	r24, 0xC0	; 192
+ 3bc:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3c0:	1d 2f       	mov	r17, r29
+ 3c2:	12 95       	swap	r17
+ 3c4:	16 95       	lsr	r17
+ 3c6:	16 95       	lsr	r17
+ 3c8:	13 70       	andi	r17, 0x03	; 3
+ 3ca:	8d 2f       	mov	r24, r29
+ 3cc:	8f 73       	andi	r24, 0x3F	; 63
+ 3ce:	61 2f       	mov	r22, r17
+ 3d0:	80 64       	ori	r24, 0x40	; 64
+ 3d2:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3d6:	61 2f       	mov	r22, r17
+ 3d8:	8c 2f       	mov	r24, r28
+ 3da:	0e 94 61 01 	call	0x2c2	; 0x2c2 <GLCD_WriteCommand>
+ 3de:	df 91       	pop	r29
+ 3e0:	cf 91       	pop	r28
+ 3e2:	1f 91       	pop	r17
+ 3e4:	08 95       	ret
+
+000003e6 <GLCD_WriteChar>:
+
+
+void GLCD_WriteChar(char charToWrite)
+{
+ 3e6:	0f 93       	push	r16
+ 3e8:	1f 93       	push	r17
+ 3ea:	cf 93       	push	r28
+ 3ec:	df 93       	push	r29
+ 3ee:	80 52       	subi	r24, 0x20	; 32
+ 3f0:	90 e0       	ldi	r25, 0x00	; 0
+ 3f2:	ec 01       	movw	r28, r24
+ 3f4:	cc 0f       	add	r28, r28
+ 3f6:	dd 1f       	adc	r29, r29
+ 3f8:	cc 0f       	add	r28, r28
+ 3fa:	dd 1f       	adc	r29, r29
+ 3fc:	8c 0f       	add	r24, r28
+ 3fe:	9d 1f       	adc	r25, r29
+ 400:	ec 01       	movw	r28, r24
+ 402:	cc 5a       	subi	r28, 0xAC	; 172
+ 404:	df 4f       	sbci	r29, 0xFF	; 255
+ 406:	8e 01       	movw	r16, r28
+ 408:	0b 5f       	subi	r16, 0xFB	; 251
+ 40a:	1f 4f       	sbci	r17, 0xFF	; 255
+
+}
+
+uint8_t GLCD_ReadByteFromROMMemory(char * ptr)
+{
+	return pgm_read_byte(ptr);
+ 40c:	fe 01       	movw	r30, r28
+ 40e:	84 91       	lpm	r24, Z
+void GLCD_WriteChar(char charToWrite)
+{
+	int i;
+	charToWrite -= 32;
+	for(i = 0; i < 5; i++)
+	GLCD_WriteData(GLCD_ReadByteFromROMMemory((char *)((int)font5x8 + (5 * charToWrite) + i)));
+ 410:	0e 94 7e 01 	call	0x2fc	; 0x2fc <GLCD_WriteData>
+ 414:	21 96       	adiw	r28, 0x01	; 1
+
+void GLCD_WriteChar(char charToWrite)
+{
+	int i;
+	charToWrite -= 32;
+	for(i = 0; i < 5; i++)
+ 416:	c0 17       	cp	r28, r16
+ 418:	d1 07       	cpc	r29, r17
+ 41a:	c1 f7       	brne	.-16     	; 0x40c <__LOCK_REGION_LENGTH__+0xc>
+	GLCD_WriteData(GLCD_ReadByteFromROMMemory((char *)((int)font5x8 + (5 * charToWrite) + i)));
+	GLCD_WriteData(0x00);
+ 41c:	80 e0       	ldi	r24, 0x00	; 0
+ 41e:	0e 94 7e 01 	call	0x2fc	; 0x2fc <GLCD_WriteData>
+}
+ 422:	df 91       	pop	r29
+ 424:	cf 91       	pop	r28
+ 426:	1f 91       	pop	r17
+ 428:	0f 91       	pop	r16
+ 42a:	08 95       	ret
+
+0000042c <GLCD_WriteString>:
+
+
+void GLCD_WriteString(char * stringToWrite)
+{
+ 42c:	cf 93       	push	r28
+ 42e:	df 93       	push	r29
+ 430:	ec 01       	movw	r28, r24
+	while(*stringToWrite)
+ 432:	88 81       	ld	r24, Y
+ 434:	88 23       	and	r24, r24
+ 436:	31 f0       	breq	.+12     	; 0x444 <GLCD_WriteString+0x18>
+ 438:	21 96       	adiw	r28, 0x01	; 1
+	GLCD_WriteChar(*stringToWrite++);
+ 43a:	0e 94 f3 01 	call	0x3e6	; 0x3e6 <GLCD_WriteChar>
+}
+
+
+void GLCD_WriteString(char * stringToWrite)
+{
+	while(*stringToWrite)
+ 43e:	89 91       	ld	r24, Y+
+ 440:	81 11       	cpse	r24, r1
+ 442:	fb cf       	rjmp	.-10     	; 0x43a <GLCD_WriteString+0xe>
+	GLCD_WriteChar(*stringToWrite++);
+}
+ 444:	df 91       	pop	r29
+ 446:	cf 91       	pop	r28
+ 448:	08 95       	ret
+
+0000044a <main>:
+
+
+
+int main(void)
+{
+    GLCD_Initalize();
+ 44a:	0e 94 b3 01 	call	0x366	; 0x366 <GLCD_Initalize>
+	GLCD_GoTo(5,5);
+ 44e:	65 e0       	ldi	r22, 0x05	; 5
+ 450:	85 e0       	ldi	r24, 0x05	; 5
+ 452:	0e 94 be 01 	call	0x37c	; 0x37c <GLCD_GoTo>
+	GLCD_WriteString("Hello!!!");
+ 456:	80 e6       	ldi	r24, 0x60	; 96
+ 458:	90 e0       	ldi	r25, 0x00	; 0
+ 45a:	0e 94 16 02 	call	0x42c	; 0x42c <GLCD_WriteString>
+ 45e:	ff cf       	rjmp	.-2      	; 0x45e <main+0x14>
+
+00000460 <_exit>:
+ 460:	f8 94       	cli
+
+00000462 <__stop_program>:
+ 462:	ff cf       	rjmp	.-2      	; 0x462 <__stop_program>
