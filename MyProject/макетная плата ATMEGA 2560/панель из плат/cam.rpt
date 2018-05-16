@@ -1,0 +1,16 @@
+CAMtasticDXP Drill Report
+Serial Number:0000-00-00000
+Drill File: D:\Projects_Electronics\проекты по трассировке печатных плат\макетная плата ATMEGA 2560\панель из плат\cam.drl
+Format: 3.4
+Units: Metric (mm.)
+Step & Repeat Codes Used: NO
+
+
+TOOL		SIZE		COUNT
+====		======		=====
+
+ 1 		0.3000		376
+ 2 		0.6000		141
+ 3 		0.8000		64
+ 4 		1.0000		512
+ 5 		4.0000		16

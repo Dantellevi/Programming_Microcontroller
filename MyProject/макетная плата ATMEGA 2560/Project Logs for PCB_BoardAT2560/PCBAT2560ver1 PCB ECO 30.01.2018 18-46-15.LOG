@@ -1,0 +1,571 @@
+Added Component: Designator=C1(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "47nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "22pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "22pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C4(K50-Elect)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "2200uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "марка"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C7(K50-Elect)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "марка"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAPC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "1nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C11(K50-Elect)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "2200uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "марка"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C12(K50-Elect)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Напряжение"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "марка"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DA1(TO-263-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Корпус"; Value = "TO-263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DD1(TSQFP50P1600X1600X120-100N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Корпус"; Value = "TQFP100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Марка"; Value = "ATMEGA2650"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DD2(SSOP-28)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Корпус"; Value = "SOIC-28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "марка"; Value = "FT232"; VariantName = "[No Variations]"
+Added Component: Designator=HL1(LED)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Цвет"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=HL2(LED)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Цвет"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=HL3(LED)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Цвет"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=L1(Drossel)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Номинал"; Value = "1000u"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "390"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R3(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "240"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "2K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "330"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(RESC2012L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Мощность"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "330"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SB1(KLS2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=X1(PLSx3_XP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "марка"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP1(PLSx25_XP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP2(PLSx25_XP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP3(PLS6-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP4(PLSx25_XP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP5(PLSx25_XP)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP6(PLS-8-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XS1(KLS1-229-5FE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Марка"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "производитель"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=ZQ1(STS)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=AREF Pin=C10-1
+Added Pin To Net: NetName=AREF Pin=DD1-98
+Added Pin To Net: NetName=AREF Pin=XP4-23
+Added Net: Name=AREF
+Added Pin To Net: NetName=AVCC Pin=C12-1
+Added Pin To Net: NetName=AVCC Pin=DD1-100
+Added Pin To Net: NetName=AVCC Pin=L1-1
+Added Pin To Net: NetName=AVCC Pin=R4-1
+Added Pin To Net: NetName=AVCC Pin=XP4-25
+Added Net: Name=AVCC
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=DD1-11
+Added Pin To Net: NetName=GND Pin=DD1-32
+Added Pin To Net: NetName=GND Pin=DD1-62
+Added Pin To Net: NetName=GND Pin=DD1-81
+Added Pin To Net: NetName=GND Pin=DD1-99
+Added Pin To Net: NetName=GND Pin=DD2-7
+Added Pin To Net: NetName=GND Pin=DD2-18
+Added Pin To Net: NetName=GND Pin=DD2-21
+Added Pin To Net: NetName=GND Pin=DD2-25
+Added Pin To Net: NetName=GND Pin=DD2-26
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=SB1-4
+Added Pin To Net: NetName=GND Pin=XP1-7
+Added Pin To Net: NetName=GND Pin=XP2-11
+Added Pin To Net: NetName=GND Pin=XP3-4
+Added Pin To Net: NetName=GND Pin=XP3-6
+Added Pin To Net: NetName=GND Pin=XP3-8
+Added Pin To Net: NetName=GND Pin=XP3-10
+Added Pin To Net: NetName=GND Pin=XP4-6
+Added Pin To Net: NetName=GND Pin=XP4-24
+Added Pin To Net: NetName=GND Pin=XP5-12
+Added Pin To Net: NetName=GND Pin=XP6-5
+Added Pin To Net: NetName=GND Pin=XP6-6
+Added Pin To Net: NetName=GND Pin=XP6-7
+Added Pin To Net: NetName=GND Pin=XP6-8
+Added Pin To Net: NetName=GND Pin=XS1-5
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=DA1-1
+Added Pin To Net: NetName=NetC7_1 Pin=R2-2
+Added Pin To Net: NetName=NetC7_1 Pin=R3-2
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=DA1-2
+Added Pin To Net: NetName=NetC11_1 Pin=DA1-2
+Added Pin To Net: NetName=NetC11_1 Pin=R3-1
+Added Pin To Net: NetName=NetC11_1 Pin=X1-3
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetDD2_15 Pin=DD2-15
+Added Pin To Net: NetName=NetDD2_15 Pin=XS1-3
+Added Net: Name=NetDD2_15
+Added Pin To Net: NetName=NetDD2_16 Pin=DD2-16
+Added Pin To Net: NetName=NetDD2_16 Pin=XS1-2
+Added Net: Name=NetDD2_16
+Added Pin To Net: NetName=NetDD2_22 Pin=DD2-22
+Added Pin To Net: NetName=NetDD2_22 Pin=HL2-2
+Added Net: Name=NetDD2_22
+Added Pin To Net: NetName=NetDD2_23 Pin=DD2-23
+Added Pin To Net: NetName=NetDD2_23 Pin=HL1-2
+Added Net: Name=NetDD2_23
+Added Pin To Net: NetName=NetHL1_1 Pin=HL1-1
+Added Pin To Net: NetName=NetHL1_1 Pin=R6-2
+Added Net: Name=NetHL1_1
+Added Pin To Net: NetName=NetHL2_1 Pin=HL2-1
+Added Pin To Net: NetName=NetHL2_1 Pin=R7-2
+Added Net: Name=NetHL2_1
+Added Pin To Net: NetName=NetHL3_2 Pin=HL3-2
+Added Pin To Net: NetName=NetHL3_2 Pin=R5-2
+Added Net: Name=NetHL3_2
+Added Pin To Net: NetName=PA0 Pin=DD1-78
+Added Pin To Net: NetName=PA0 Pin=XP4-3
+Added Net: Name=PA0
+Added Pin To Net: NetName=PA1 Pin=DD1-77
+Added Pin To Net: NetName=PA1 Pin=XP4-2
+Added Net: Name=PA1
+Added Pin To Net: NetName=PA2 Pin=DD1-76
+Added Pin To Net: NetName=PA2 Pin=XP4-1
+Added Net: Name=PA2
+Added Pin To Net: NetName=PA3 Pin=DD1-75
+Added Pin To Net: NetName=PA3 Pin=XP5-25
+Added Net: Name=PA3
+Added Pin To Net: NetName=PA4 Pin=DD1-74
+Added Pin To Net: NetName=PA4 Pin=XP5-24
+Added Net: Name=PA4
+Added Pin To Net: NetName=PA5 Pin=DD1-73
+Added Pin To Net: NetName=PA5 Pin=XP5-23
+Added Net: Name=PA5
+Added Pin To Net: NetName=PA6 Pin=DD1-72
+Added Pin To Net: NetName=PA6 Pin=XP5-22
+Added Net: Name=PA6
+Added Pin To Net: NetName=PA7 Pin=DD1-71
+Added Pin To Net: NetName=PA7 Pin=XP5-21
+Added Net: Name=PA7
+Added Pin To Net: NetName=PB0 Pin=DD1-19
+Added Pin To Net: NetName=PB0 Pin=XP2-19
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB1 Pin=DD1-20
+Added Pin To Net: NetName=PB1 Pin=XP2-20
+Added Pin To Net: NetName=PB1 Pin=XP3-7
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB2 Pin=DD1-21
+Added Pin To Net: NetName=PB2 Pin=XP2-21
+Added Pin To Net: NetName=PB2 Pin=XP3-1
+Added Net: Name=PB2
+Added Pin To Net: NetName=PB3 Pin=DD1-22
+Added Pin To Net: NetName=PB3 Pin=XP2-22
+Added Pin To Net: NetName=PB3 Pin=XP3-9
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=DD1-23
+Added Pin To Net: NetName=PB4 Pin=XP2-23
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB5 Pin=DD1-24
+Added Pin To Net: NetName=PB5 Pin=XP2-24
+Added Net: Name=PB5
+Added Pin To Net: NetName=PB6 Pin=DD1-25
+Added Pin To Net: NetName=PB6 Pin=XP2-25
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB7 Pin=DD1-26
+Added Pin To Net: NetName=PB7 Pin=XP1-1
+Added Net: Name=PB7
+Added Pin To Net: NetName=PC0 Pin=DD1-53
+Added Pin To Net: NetName=PC0 Pin=XP5-3
+Added Net: Name=PC0
+Added Pin To Net: NetName=PC1 Pin=DD1-54
+Added Pin To Net: NetName=PC1 Pin=XP5-4
+Added Net: Name=PC1
+Added Pin To Net: NetName=PC2 Pin=DD1-55
+Added Pin To Net: NetName=PC2 Pin=XP5-5
+Added Net: Name=PC2
+Added Pin To Net: NetName=PC3 Pin=DD1-56
+Added Pin To Net: NetName=PC3 Pin=XP5-6
+Added Net: Name=PC3
+Added Pin To Net: NetName=PC4 Pin=DD1-57
+Added Pin To Net: NetName=PC4 Pin=XP5-7
+Added Net: Name=PC4
+Added Pin To Net: NetName=PC5 Pin=DD1-58
+Added Pin To Net: NetName=PC5 Pin=XP5-8
+Added Net: Name=PC5
+Added Pin To Net: NetName=PC6 Pin=DD1-59
+Added Pin To Net: NetName=PC6 Pin=XP5-9
+Added Net: Name=PC6
+Added Pin To Net: NetName=PC7 Pin=DD1-60
+Added Pin To Net: NetName=PC7 Pin=XP5-10
+Added Net: Name=PC7
+Added Pin To Net: NetName=PD0 Pin=DD1-43
+Added Pin To Net: NetName=PD0 Pin=XP1-18
+Added Net: Name=PD0
+Added Pin To Net: NetName=PD1 Pin=DD1-44
+Added Pin To Net: NetName=PD1 Pin=XP1-19
+Added Net: Name=PD1
+Added Pin To Net: NetName=PD2 Pin=DD1-45
+Added Pin To Net: NetName=PD2 Pin=XP1-20
+Added Net: Name=PD2
+Added Pin To Net: NetName=PD3 Pin=DD1-46
+Added Pin To Net: NetName=PD3 Pin=XP1-21
+Added Net: Name=PD3
+Added Pin To Net: NetName=PD4 Pin=DD1-47
+Added Pin To Net: NetName=PD4 Pin=XP1-22
+Added Net: Name=PD4
+Added Pin To Net: NetName=PD5 Pin=DD1-48
+Added Pin To Net: NetName=PD5 Pin=XP1-23
+Added Net: Name=PD5
+Added Pin To Net: NetName=PD6 Pin=DD1-49
+Added Pin To Net: NetName=PD6 Pin=XP1-24
+Added Net: Name=PD6
+Added Pin To Net: NetName=PD7 Pin=DD1-50
+Added Pin To Net: NetName=PD7 Pin=XP1-25
+Added Net: Name=PD7
+Added Pin To Net: NetName=PE0 Pin=DD1-2
+Added Pin To Net: NetName=PE0 Pin=XP2-2
+Added Net: Name=PE0
+Added Pin To Net: NetName=PE1 Pin=DD1-3
+Added Pin To Net: NetName=PE1 Pin=XP2-3
+Added Net: Name=PE1
+Added Pin To Net: NetName=PE2 Pin=DD1-4
+Added Pin To Net: NetName=PE2 Pin=XP2-4
+Added Net: Name=PE2
+Added Pin To Net: NetName=PE3 Pin=DD1-5
+Added Pin To Net: NetName=PE3 Pin=XP2-5
+Added Net: Name=PE3
+Added Pin To Net: NetName=PE4 Pin=DD1-6
+Added Pin To Net: NetName=PE4 Pin=XP2-6
+Added Net: Name=PE4
+Added Pin To Net: NetName=PE5 Pin=DD1-7
+Added Pin To Net: NetName=PE5 Pin=XP2-7
+Added Net: Name=PE5
+Added Pin To Net: NetName=PE6 Pin=DD1-8
+Added Pin To Net: NetName=PE6 Pin=XP2-8
+Added Net: Name=PE6
+Added Pin To Net: NetName=PE7 Pin=DD1-9
+Added Pin To Net: NetName=PE7 Pin=XP2-9
+Added Net: Name=PE7
+Added Pin To Net: NetName=PF0 Pin=DD1-97
+Added Pin To Net: NetName=PF0 Pin=XP4-22
+Added Net: Name=PF0
+Added Pin To Net: NetName=PF1 Pin=DD1-96
+Added Pin To Net: NetName=PF1 Pin=XP4-21
+Added Net: Name=PF1
+Added Pin To Net: NetName=PF2 Pin=DD1-95
+Added Pin To Net: NetName=PF2 Pin=XP4-20
+Added Net: Name=PF2
+Added Pin To Net: NetName=PF3 Pin=DD1-94
+Added Pin To Net: NetName=PF3 Pin=XP4-19
+Added Net: Name=PF3
+Added Pin To Net: NetName=PF4 Pin=DD1-93
+Added Pin To Net: NetName=PF4 Pin=XP4-18
+Added Net: Name=PF4
+Added Pin To Net: NetName=PF5 Pin=DD1-92
+Added Pin To Net: NetName=PF5 Pin=XP4-17
+Added Net: Name=PF5
+Added Pin To Net: NetName=PF6 Pin=DD1-91
+Added Pin To Net: NetName=PF6 Pin=XP4-16
+Added Net: Name=PF6
+Added Pin To Net: NetName=PF7 Pin=DD1-90
+Added Pin To Net: NetName=PF7 Pin=XP4-15
+Added Net: Name=PF7
+Added Pin To Net: NetName=PG0 Pin=DD1-51
+Added Pin To Net: NetName=PG0 Pin=XP5-1
+Added Net: Name=PG0
+Added Pin To Net: NetName=PG1 Pin=DD1-52
+Added Pin To Net: NetName=PG1 Pin=XP5-2
+Added Net: Name=PG1
+Added Pin To Net: NetName=PG2 Pin=DD1-70
+Added Pin To Net: NetName=PG2 Pin=XP5-20
+Added Net: Name=PG2
+Added Pin To Net: NetName=PG3 Pin=DD1-28
+Added Pin To Net: NetName=PG3 Pin=XP1-3
+Added Net: Name=PG3
+Added Pin To Net: NetName=PG4 Pin=DD1-29
+Added Pin To Net: NetName=PG4 Pin=XP1-4
+Added Net: Name=PG4
+Added Pin To Net: NetName=PG5 Pin=DD1-1
+Added Pin To Net: NetName=PG5 Pin=XP2-1
+Added Net: Name=PG5
+Added Pin To Net: NetName=PH0 Pin=DD1-12
+Added Pin To Net: NetName=PH0 Pin=DD2-1
+Added Pin To Net: NetName=PH0 Pin=XP2-12
+Added Net: Name=PH0
+Added Pin To Net: NetName=PH1 Pin=DD1-13
+Added Pin To Net: NetName=PH1 Pin=DD2-5
+Added Pin To Net: NetName=PH1 Pin=XP2-13
+Added Net: Name=PH1
+Added Pin To Net: NetName=PH2 Pin=DD1-14
+Added Pin To Net: NetName=PH2 Pin=XP2-14
+Added Net: Name=PH2
+Added Pin To Net: NetName=PH3 Pin=DD1-15
+Added Pin To Net: NetName=PH3 Pin=XP2-15
+Added Net: Name=PH3
+Added Pin To Net: NetName=PH4 Pin=DD1-16
+Added Pin To Net: NetName=PH4 Pin=XP2-16
+Added Net: Name=PH4
+Added Pin To Net: NetName=PH5 Pin=DD1-17
+Added Pin To Net: NetName=PH5 Pin=XP2-17
+Added Net: Name=PH5
+Added Pin To Net: NetName=PH6 Pin=DD1-18
+Added Pin To Net: NetName=PH6 Pin=XP2-18
+Added Net: Name=PH6
+Added Pin To Net: NetName=PH7 Pin=DD1-27
+Added Pin To Net: NetName=PH7 Pin=XP1-2
+Added Net: Name=PH7
+Added Pin To Net: NetName=PJ0 Pin=DD1-63
+Added Pin To Net: NetName=PJ0 Pin=XP5-13
+Added Net: Name=PJ0
+Added Pin To Net: NetName=PJ1 Pin=DD1-64
+Added Pin To Net: NetName=PJ1 Pin=XP5-14
+Added Net: Name=PJ1
+Added Pin To Net: NetName=PJ2 Pin=DD1-65
+Added Pin To Net: NetName=PJ2 Pin=XP5-15
+Added Net: Name=PJ2
+Added Pin To Net: NetName=PJ3 Pin=DD1-66
+Added Pin To Net: NetName=PJ3 Pin=XP5-16
+Added Net: Name=PJ3
+Added Pin To Net: NetName=PJ4 Pin=DD1-67
+Added Pin To Net: NetName=PJ4 Pin=XP5-17
+Added Net: Name=PJ4
+Added Pin To Net: NetName=PJ5 Pin=DD1-68
+Added Pin To Net: NetName=PJ5 Pin=XP5-18
+Added Net: Name=PJ5
+Added Pin To Net: NetName=PJ6 Pin=DD1-69
+Added Pin To Net: NetName=PJ6 Pin=XP5-19
+Added Net: Name=PJ6
+Added Pin To Net: NetName=PJ7 Pin=DD1-79
+Added Pin To Net: NetName=PJ7 Pin=XP4-4
+Added Net: Name=PJ7
+Added Pin To Net: NetName=PK0 Pin=DD1-89
+Added Pin To Net: NetName=PK0 Pin=XP4-14
+Added Net: Name=PK0
+Added Pin To Net: NetName=PK1 Pin=DD1-88
+Added Pin To Net: NetName=PK1 Pin=XP4-13
+Added Net: Name=PK1
+Added Pin To Net: NetName=PK2 Pin=DD1-87
+Added Pin To Net: NetName=PK2 Pin=XP4-12
+Added Net: Name=PK2
+Added Pin To Net: NetName=PK3 Pin=DD1-86
+Added Pin To Net: NetName=PK3 Pin=XP4-11
+Added Net: Name=PK3
+Added Pin To Net: NetName=PK4 Pin=DD1-85
+Added Pin To Net: NetName=PK4 Pin=XP4-10
+Added Net: Name=PK4
+Added Pin To Net: NetName=PK5 Pin=DD1-84
+Added Pin To Net: NetName=PK5 Pin=XP4-9
+Added Net: Name=PK5
+Added Pin To Net: NetName=PK6 Pin=DD1-83
+Added Pin To Net: NetName=PK6 Pin=XP4-8
+Added Net: Name=PK6
+Added Pin To Net: NetName=PK7 Pin=DD1-82
+Added Pin To Net: NetName=PK7 Pin=XP4-7
+Added Net: Name=PK7
+Added Pin To Net: NetName=PL0 Pin=DD1-35
+Added Pin To Net: NetName=PL0 Pin=XP1-10
+Added Net: Name=PL0
+Added Pin To Net: NetName=PL1 Pin=DD1-36
+Added Pin To Net: NetName=PL1 Pin=XP1-11
+Added Net: Name=PL1
+Added Pin To Net: NetName=PL2 Pin=DD1-37
+Added Pin To Net: NetName=PL2 Pin=XP1-12
+Added Net: Name=PL2
+Added Pin To Net: NetName=PL3 Pin=DD1-38
+Added Pin To Net: NetName=PL3 Pin=XP1-13
+Added Net: Name=PL3
+Added Pin To Net: NetName=PL4 Pin=DD1-39
+Added Pin To Net: NetName=PL4 Pin=XP1-14
+Added Net: Name=PL4
+Added Pin To Net: NetName=PL5 Pin=DD1-40
+Added Pin To Net: NetName=PL5 Pin=XP1-15
+Added Net: Name=PL5
+Added Pin To Net: NetName=PL6 Pin=DD1-41
+Added Pin To Net: NetName=PL6 Pin=XP1-16
+Added Net: Name=PL6
+Added Pin To Net: NetName=PL7 Pin=DD1-42
+Added Pin To Net: NetName=PL7 Pin=XP1-17
+Added Net: Name=PL7
+Added Pin To Net: NetName=RESET Pin=C1-1
+Added Pin To Net: NetName=RESET Pin=DD1-30
+Added Pin To Net: NetName=RESET Pin=R1-1
+Added Pin To Net: NetName=RESET Pin=SB1-1
+Added Pin To Net: NetName=RESET Pin=XP1-5
+Added Pin To Net: NetName=RESET Pin=XP3-5
+Added Net: Name=RESET
+Added Pin To Net: NetName=VCC_out Pin=C5-1
+Added Pin To Net: NetName=VCC_out Pin=C6-1
+Added Pin To Net: NetName=VCC_out Pin=C8-1
+Added Pin To Net: NetName=VCC_out Pin=C9-1
+Added Pin To Net: NetName=VCC_out Pin=DD1-10
+Added Pin To Net: NetName=VCC_out Pin=DD1-31
+Added Pin To Net: NetName=VCC_out Pin=DD1-61
+Added Pin To Net: NetName=VCC_out Pin=DD1-80
+Added Pin To Net: NetName=VCC_out Pin=DD2-4
+Added Pin To Net: NetName=VCC_out Pin=DD2-20
+Added Pin To Net: NetName=VCC_out Pin=HL3-1
+Added Pin To Net: NetName=VCC_out Pin=L1-2
+Added Pin To Net: NetName=VCC_out Pin=R1-2
+Added Pin To Net: NetName=VCC_out Pin=R4-2
+Added Pin To Net: NetName=VCC_out Pin=R6-1
+Added Pin To Net: NetName=VCC_out Pin=R7-1
+Added Pin To Net: NetName=VCC_out Pin=X1-2
+Added Pin To Net: NetName=VCC_out Pin=XP1-6
+Added Pin To Net: NetName=VCC_out Pin=XP2-10
+Added Pin To Net: NetName=VCC_out Pin=XP4-5
+Added Pin To Net: NetName=VCC_out Pin=XP5-11
+Added Pin To Net: NetName=VCC_out Pin=XP6-1
+Added Pin To Net: NetName=VCC_out Pin=XP6-2
+Added Pin To Net: NetName=VCC_out Pin=XP6-3
+Added Pin To Net: NetName=VCC_out Pin=XP6-4
+Added Net: Name=VCC_out
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=VCC Pin=DA1-3
+Added Pin To Net: NetName=VCC Pin=X1-1
+Added Pin To Net: NetName=VCC Pin=XP3-2
+Added Pin To Net: NetName=VCC Pin=XS1-1
+Added Net: Name=VCC
+Added Pin To Net: NetName=XTAL1 Pin=C3-2
+Added Pin To Net: NetName=XTAL1 Pin=DD1-33
+Added Pin To Net: NetName=XTAL1 Pin=XP1-8
+Added Pin To Net: NetName=XTAL1 Pin=ZQ1-2
+Added Net: Name=XTAL1
+Added Pin To Net: NetName=XTAL2 Pin=C2-2
+Added Pin To Net: NetName=XTAL2 Pin=DD1-34
+Added Pin To Net: NetName=XTAL2 Pin=XP1-9
+Added Pin To Net: NetName=XTAL2 Pin=ZQ1-1
+Added Net: Name=XTAL2
+Added Class: Name=AT2560circuit
+Added Room: Name=AT2560circuit

@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=45 Pin=VT1-2
+Removed Pin From Net: NetName=50 Pin=VT1-3
+Removed Pin From Net: NetName=46 Pin=VT2-2
+Removed Pin From Net: NetName=47 Pin=VT2-3
+Removed Pin From Net: NetName=48 Pin=VT3-2
+Removed Pin From Net: NetName=50 Pin=VT3-3
+Removed Pin From Net: NetName=51 Pin=VT4-2
+Removed Pin From Net: NetName=53 Pin=VT4-3
+Removed Pin From Net: NetName=NetR13_1 Pin=VT5-2
+Removed Pin From Net: NetName=52 Pin=VT5-3
+Removed Pin From Net: NetName=56 Pin=VT6-2
+Removed Pin From Net: NetName=57 Pin=VT6-3
+Removed Pin From Net: NetName=58 Pin=VT7-2
+Removed Pin From Net: NetName=59 Pin=VT7-3
+Removed Pin From Net: NetName=61 Pin=VT8-2
+Removed Pin From Net: NetName=62 Pin=VT8-3
+Change Component Footprint: Designator=VT1 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT2 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT3 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT4 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT5 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT6 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT7 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change Component Footprint: Designator=VT8 Old Footprint=SOT95P270X110-3N New Footprint=TO-92
+Change component parameters: Designator = "VT1"; Footprint = "TO-92"; UniqueID = "\VMFNFOKD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT2"; Footprint = "TO-92"; UniqueID = "\ALDYDRVK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT3"; Footprint = "TO-92"; UniqueID = "\PFFVNPFA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT4"; Footprint = "TO-92"; UniqueID = "\WQKGFMFT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT5"; Footprint = "TO-92"; UniqueID = "\FNPJCLWO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT6"; Footprint = "TO-92"; UniqueID = "\EWUOHBGP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT7"; Footprint = "TO-92"; UniqueID = "\DPXUNPLJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT8"; Footprint = "TO-92"; UniqueID = "\XNXSMPOT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=50 Pin=VT1-2
+Added Pin To Net: NetName=45 Pin=VT1-3
+Added Pin To Net: NetName=47 Pin=VT2-2
+Added Pin To Net: NetName=46 Pin=VT2-3
+Added Pin To Net: NetName=50 Pin=VT3-2
+Added Pin To Net: NetName=48 Pin=VT3-3
+Added Pin To Net: NetName=53 Pin=VT4-2
+Added Pin To Net: NetName=51 Pin=VT4-3
+Added Pin To Net: NetName=52 Pin=VT5-2
+Added Pin To Net: NetName=NetR13_1 Pin=VT5-3
+Added Pin To Net: NetName=57 Pin=VT6-2
+Added Pin To Net: NetName=56 Pin=VT6-3
+Added Pin To Net: NetName=59 Pin=VT7-2
+Added Pin To Net: NetName=58 Pin=VT7-3
+Added Pin To Net: NetName=62 Pin=VT8-2
+Added Pin To Net: NetName=61 Pin=VT8-3

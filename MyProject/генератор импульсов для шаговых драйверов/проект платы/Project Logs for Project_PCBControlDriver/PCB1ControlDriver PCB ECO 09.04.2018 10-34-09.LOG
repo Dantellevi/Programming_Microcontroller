@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=HL4 Old Footprint=CB-5Pin New Footprint=GNL-3014
+Change Component Footprint: Designator=HL5 Old Footprint=CB-5Pin New Footprint=GNL-3014
+Change Component Footprint: Designator=HL6 Old Footprint=CB-5Pin New Footprint=GNL-3014
+Added Room: Name=CircuitControlDriver

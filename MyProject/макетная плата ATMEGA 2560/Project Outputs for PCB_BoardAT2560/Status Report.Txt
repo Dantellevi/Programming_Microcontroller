@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCB_BoardAT2560.PrjPCB]
+   Generated File[PCBAT2560ver1.GTL]
+   Generated File[PCBAT2560ver1.GBL]
+   Generated File[PCBAT2560ver1.GTO]
+   Generated File[PCBAT2560ver1.GTP]
+   Generated File[PCBAT2560ver1.GTS]
+   Generated File[PCBAT2560ver1.GBS]
+   Generated File[PCBAT2560ver1.GBP]
+   Generated File[PCBAT2560ver1.GBO]
+   Generated File[PCBAT2560ver1.GM1]
+   Generated File[PCBAT2560ver1.RUL]
+   Generated File[PCBAT2560ver1.EXTREP]
+   Generated File[PCBAT2560ver1.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 16:06:37 On 22.02.2018

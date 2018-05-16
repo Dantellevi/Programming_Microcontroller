@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Main.SchDoc
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=BlockControl|SchDesignator=BlockControl|FileName=Sheet1.SchDoc|SymbolType=Normal|RawFileName=Sheet1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=StepUpConverter|SchDesignator=StepUpConverter|FileName=DCDCConverterUP.SchDoc|SymbolType=Normal|RawFileName=DCDCConverterUP.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=U1 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U2 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U3 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U4 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U5 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U6 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U7 Old Footprint=DIP-4 New Footprint=DIP-4M
+Change Component Footprint: Designator=U8 Old Footprint=DIP-4 New Footprint=DIP-4M
+Added Room: Name=SheetCircuitInputPowerModule220V

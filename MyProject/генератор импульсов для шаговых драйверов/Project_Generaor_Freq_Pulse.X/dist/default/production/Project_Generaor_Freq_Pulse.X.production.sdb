@@ -1,0 +1,565 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"10 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\ADC.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"39
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"42 D:\Program Files\Microchip\xc8\v1.45\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"492 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"44 D:\Program Files\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 D:\Program Files\Microchip\xc8\v1.45\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"11 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\KS108.c
+[v _GLDKS108_SendCommand GLDKS108_SendCommand `(v  1 e 1 0 ]
+"29
+[v _GLDKS108_SendData GLDKS108_SendData `(v  1 e 1 0 ]
+"98
+[v _GLDKS108_GotoXY GLDKS108_GotoXY `(v  1 e 1 0 ]
+"178
+[v _GLD_Draw_Point GLD_Draw_Point `(v  1 e 1 0 ]
+"224
+[v _GLD_abs GLD_abs `(i  1 e 2 0 ]
+"230
+[v _GLD_sign GLD_sign `(i  1 e 2 0 ]
+"246
+[v _GLD_Draw_Line GLD_Draw_Line `(v  1 e 1 0 ]
+"334
+[v _GLD_printChar GLD_printChar `(v  1 e 1 0 ]
+"9 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\LCD.c
+[v _Send_Data Send_Data `(v  1 e 1 0 ]
+"57
+[v _Send_command Send_command `(v  1 e 1 0 ]
+"70
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"109
+[v _lcd_Print_char lcd_Print_char `(v  1 e 1 0 ]
+"126
+[v _lcd_printString lcd_printString `(v  1 e 1 0 ]
+"138
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"189
+[v _lcd_printStringXY lcd_printStringXY `(v  1 e 1 0 ]
+"24 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\main.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+"60
+[v _ENABLE_SET ENABLE_SET `(v  1 e 1 0 ]
+"70
+[v _ENABLE_RESET ENABLE_RESET `(v  1 e 1 0 ]
+"79
+[v _DIRECTION_SET DIRECTION_SET `(v  1 e 1 0 ]
+"109
+[v _check_button check_button `(uc  1 e 1 0 ]
+"141
+[v _check_buttonSelect check_buttonSelect `(uc  1 e 1 0 ]
+"165
+[v _main main `(v  1 e 1 0 ]
+"82 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\PWM.c
+[v _Timer1_init Timer1_init `(v  1 e 1 0 ]
+"128
+[v _Start_Timer Start_Timer `(v  1 e 1 0 ]
+"136
+[v _Stop_Timer Stop_Timer `(v  1 e 1 0 ]
+"146
+[v _Set_Freq_Value Set_Freq_Value `(v  1 e 1 0 ]
+"157
+[v _ReadValue ReadValue `(ui  1 e 2 0 ]
+"166
+[v _CallBack CallBack `II(v  1 e 1 0 ]
+"182
+[v _Strob Strob `(v  1 e 1 0 ]
+"3 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\ADC.c
+[v _Vref Vref `f  1 e 3 0 ]
+"4 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\chars.h
+[v _symbol symbol `DC[160][5]uc  1 e 800 0 ]
+[s S82 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"179 D:\Program Files\Microchip\xc8\v1.45\include\pic16f877a.h
+[u S89 . 1 `S82 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES89  1 e 1 @5 ]
+[s S43 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES52  1 e 1 @6 ]
+[s S20 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"293
+[u S29 . 1 `S20 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES29  1 e 1 @7 ]
+"338
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S402 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"355
+[u S411 . 1 `S402 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES411  1 e 1 @8 ]
+[s S69 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+"412
+[u S73 . 1 `S69 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES73  1 e 1 @9 ]
+"632
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"890
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"1150
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1157
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S305 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1390
+[u S314 . 1 `S305 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES314  1 e 1 @134 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1814
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2220
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2377
+[v _ADCS0 ADCS0 `VEb  1 e 0 @254 ]
+"2379
+[v _ADCS1 ADCS1 `VEb  1 e 0 @255 ]
+"2385
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"2391
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2419
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"2421
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"2423
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"2425
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"2501
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2507
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2533
+[v _PCFG0 PCFG0 `VEb  1 e 0 @1272 ]
+"2535
+[v _PCFG1 PCFG1 `VEb  1 e 0 @1273 ]
+"2537
+[v _PCFG2 PCFG2 `VEb  1 e 0 @1274 ]
+"2539
+[v _PCFG3 PCFG3 `VEb  1 e 0 @1275 ]
+"2541
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2567
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"2569
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"2601
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"2693
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2695
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2699
+[v _T1OSCEN T1OSCEN `VEb  1 e 0 @131 ]
+"2703
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2705
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2711
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2713
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2715
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2717
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2723
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"2741
+[v _TRISA4 TRISA4 `VEb  1 e 0 @1068 ]
+"2743
+[v _TRISA5 TRISA5 `VEb  1 e 0 @1069 ]
+"2759
+[v _TRISB7 TRISB7 `VEb  1 e 0 @1079 ]
+"2765
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"2767
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2769
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"2771
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"2773
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2793
+[v _TRISE0 TRISE0 `VEb  1 e 0 @1096 ]
+"2795
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"2797
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+"354 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"13 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\main.c
+[v _flag_count flag_count `uc  1 e 1 0 ]
+"14
+[v _flag_Work flag_Work `uc  1 e 1 0 ]
+"15
+[v _data data `DC[3][40]uc  1 e 120 0 ]
+"22
+[v _dataFreq dataFreq `[40]uc  1 e 40 0 ]
+"4 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\PWM.c
+[v _Freq Freq `l  1 e 4 0 ]
+"5
+[v _FreqTim FreqTim `i  1 e 2 0 ]
+"165 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"167
+[v main@Frequnsy Frequnsy `ui  1 a 2 8 ]
+"262
+} 0
+"492 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"528
+[v sprintf@val val `ui  1 a 2 27 ]
+"499
+[v sprintf@c c `c  1 a 1 30 ]
+"506
+[v sprintf@prec prec `c  1 a 1 26 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 25 ]
+"494
+[v sprintf@ap ap `[1]*.4v  1 a 1 24 ]
+"492
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.25DCuc  1 p 2 11 ]
+"533
+[v sprintf@sp sp `*.4uc  1 a 1 29 ]
+"1541
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"26
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 8 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 4 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 6 ]
+"31
+} 0
+"189 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\LCD.c
+[v _lcd_printStringXY lcd_printStringXY `(v  1 e 1 0 ]
+{
+[v lcd_printStringXY@str str `*.26uc  1 p 2 4 ]
+[v lcd_printStringXY@x x `uc  1 p 1 6 ]
+[v lcd_printStringXY@y y `uc  1 p 1 7 ]
+"193
+} 0
+"126
+[v _lcd_printString lcd_printString `(v  1 e 1 0 ]
+{
+[v lcd_printString@str str `*.26uc  1 p 2 0 ]
+"133
+} 0
+"109
+[v _lcd_Print_char lcd_Print_char `(v  1 e 1 0 ]
+{
+[v lcd_Print_char@data data `uc  1 a 1 wreg ]
+[v lcd_Print_char@data data `uc  1 a 1 wreg ]
+"111
+[v lcd_Print_char@data data `uc  1 a 1 6 ]
+"119
+} 0
+"138
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+"145
+[v lcd_gotoxy@temp temp `uc  1 a 1 3 ]
+"138
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+[v lcd_gotoxy@y y `uc  1 p 1 0 ]
+"140
+[v lcd_gotoxy@x x `uc  1 a 1 2 ]
+"181
+} 0
+"70
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+[v lcd_init@lcd lcd `uc  1 a 1 wreg ]
+[v lcd_init@lcd lcd `uc  1 a 1 wreg ]
+"72
+[v lcd_init@lcd lcd `uc  1 a 1 2 ]
+"103
+} 0
+"57
+[v _Send_command Send_command `(v  1 e 1 0 ]
+{
+[v Send_command@com com `uc  1 a 1 wreg ]
+[v Send_command@com com `uc  1 a 1 wreg ]
+"59
+[v Send_command@com com `uc  1 a 1 6 ]
+"64
+} 0
+"9
+[v _Send_Data Send_Data `(v  1 e 1 0 ]
+{
+[v Send_Data@data data `uc  1 a 1 wreg ]
+[v Send_Data@data data `uc  1 a 1 wreg ]
+"11
+[v Send_Data@data data `uc  1 a 1 4 ]
+"50
+} 0
+"141 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\main.c
+[v _check_buttonSelect check_buttonSelect `(uc  1 e 1 0 ]
+{
+[v check_buttonSelect@flag flag `uc  1 a 1 wreg ]
+"144
+[v check_buttonSelect@butcount butcount `ui  1 a 2 1 ]
+"143
+[v check_buttonSelect@result result `uc  1 a 1 3 ]
+"141
+[v check_buttonSelect@flag flag `uc  1 a 1 wreg ]
+"143
+[v check_buttonSelect@flag flag `uc  1 a 1 0 ]
+"163
+} 0
+"109
+[v _check_button check_button `(uc  1 e 1 0 ]
+{
+"112
+[v check_button@butcount butcount `ui  1 a 2 4 ]
+"111
+[v check_button@result result `uc  1 a 1 6 ]
+"129
+} 0
+"82 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\PWM.c
+[v _Timer1_init Timer1_init `(v  1 e 1 0 ]
+{
+"122
+} 0
+"136
+[v _Stop_Timer Stop_Timer `(v  1 e 1 0 ]
+{
+"139
+} 0
+"128
+[v _Start_Timer Start_Timer `(v  1 e 1 0 ]
+{
+"131
+} 0
+"157
+[v _ReadValue ReadValue `(ui  1 e 2 0 ]
+{
+"161
+} 0
+"146
+[v _Set_Freq_Value Set_Freq_Value `(v  1 e 1 0 ]
+{
+"148
+[v Set_Freq_Value@val val `f  1 a 3 57 ]
+"146
+[v Set_Freq_Value@value value `ui  1 p 2 55 ]
+"152
+} 0
+"28 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 5 ]
+"31
+} 0
+"44 D:\Program Files\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 50 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 54 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 49 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 41 ]
+"73
+} 0
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 25 ]
+"20
+} 0
+"56 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 20 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 24 ]
+[v ___ftdiv@exp exp `uc  1 a 1 23 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 19 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 9 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 12 ]
+"86
+} 0
+"86 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 40 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 39 ]
+[v ___ftadd@sign sign `uc  1 a 1 38 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 28 ]
+[v ___ftadd@f2 f2 `f  1 p 3 31 ]
+"148
+} 0
+"39 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\ADC.c
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"41
+[v ADC_Read@channel channel `uc  1 a 1 6 ]
+"50
+} 0
+"24 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\main.c
+[v _Port_Init Port_Init `(v  1 e 1 0 ]
+{
+"55
+} 0
+"60
+[v _ENABLE_SET ENABLE_SET `(v  1 e 1 0 ]
+{
+"64
+} 0
+"70
+[v _ENABLE_RESET ENABLE_RESET `(v  1 e 1 0 ]
+{
+"74
+} 0
+"79
+[v _DIRECTION_SET DIRECTION_SET `(v  1 e 1 0 ]
+{
+[v DIRECTION_SET@dir dir `uc  1 a 1 wreg ]
+[v DIRECTION_SET@dir dir `uc  1 a 1 wreg ]
+[v DIRECTION_SET@dir dir `uc  1 a 1 4 ]
+"99
+} 0
+"10 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\ADC.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+[v ADC_Init@Uref Uref `uc  1 a 1 wreg ]
+[v ADC_Init@Uref Uref `uc  1 a 1 wreg ]
+"13
+[v ADC_Init@Uref Uref `uc  1 a 1 13 ]
+"28
+} 0
+"27 D:\Program Files\Microchip\xc8\v1.45\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 12 ]
+"30
+} 0
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"166 D:\Projects_Electronics\генератор импульсов для шаговых драйверов\Project_Generaor_Freq_Pulse.X\PWM.c
+[v _CallBack CallBack `II(v  1 e 1 0 ]
+{
+"176
+} 0
+"182
+[v _Strob Strob `(v  1 e 1 0 ]
+{
+"193
+} 0

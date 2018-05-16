@@ -1,0 +1,12 @@
+Output: DRILLPCBverSingle
+Type  : NC Drill
+From  : PCB Document [PCBByb2Aver3.PcbDoc]
+   Generated File[PCBByb2Aver3.TXT]
+   Generated File[PCBByb2Aver3.LDP]
+   Generated File[PCBByb2Aver3.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:27:30 On 12.02.2018

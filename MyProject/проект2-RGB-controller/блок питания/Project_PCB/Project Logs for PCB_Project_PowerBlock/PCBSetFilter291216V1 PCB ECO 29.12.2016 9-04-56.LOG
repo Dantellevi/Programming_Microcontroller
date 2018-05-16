@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=L Pin=*-1
+Added Pin To Net: NetName=L Pin=SA1-1
+Added Net: Name=L
+Added Pin To Net: NetName=N Pin=*-2
+Added Pin To Net: NetName=N Pin=C1-2
+Added Pin To Net: NetName=N Pin=L1-4
+Added Net: Name=N
+Added Member To Class: ClassName=Circuit Member=Component * Paika_12V
+Added Room: Name=Circuit

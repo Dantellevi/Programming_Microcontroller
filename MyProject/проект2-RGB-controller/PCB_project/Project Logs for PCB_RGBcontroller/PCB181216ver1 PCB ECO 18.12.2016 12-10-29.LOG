@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R12
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=RGB_Controller NewDesignator=RGB_Controller1
+Added Component: Designator=R9(RESC3216M)
+Added Component: Designator=R11(RESC3216M)
+Added Pin To Net: NetName=SDA Pin=R9-1
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Pin To Net: NetName=SCL Pin=R11-1
+Added Pin To Net: NetName=VCC Pin=R11-2
+Change Net Name : Old Net Name=NetRGB_Controller_1 New Net Name=NetRGB_Controller1_1
+Change Net Name : Old Net Name=NetRGB_Controller_2 New Net Name=NetRGB_Controller1_2
+Change Net Name : Old Net Name=NetRGB_Controller_3 New Net Name=NetRGB_Controller1_3
+Added Member To Class: ClassName=circuit Member=Component R12 Resistor
+Added Member To Class: ClassName=circuit Member=Component R13 Resistor

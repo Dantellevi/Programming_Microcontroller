@@ -1,0 +1,77 @@
+Added Component: Designator=HL1(GNL-3014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Component: Designator=HL2(GNL-3014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Component: Designator=HL3(GNL-3014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Component: Designator=HL4(CB-5Pin)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Component: Designator=HL5(CB-5Pin)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Component: Designator=HL6(CB-5Pin)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetHL1_1 Pin=HL1-1
+Added Pin To Net: NetName=GND Pin=HL1-2
+Added Pin To Net: NetName=NetHL2_1 Pin=HL2-1
+Added Pin To Net: NetName=GND Pin=HL2-2
+Added Pin To Net: NetName=NetHL3_1 Pin=HL3-1
+Added Pin To Net: NetName=GND Pin=HL3-2
+Added Pin To Net: NetName=NetHL4_1 Pin=HL4-1
+Added Pin To Net: NetName=GND Pin=HL4-2
+Added Pin To Net: NetName=NetHL5_1 Pin=HL5-1
+Added Pin To Net: NetName=GND Pin=HL5-2
+Added Pin To Net: NetName=NetHL6_1 Pin=HL6-1
+Added Pin To Net: NetName=GND Pin=HL6-2
+Added Member To Class: ClassName=CircuitControlDriver Member=Component A1 KAM0705
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HG1 LM044L
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HL1 GNL-3014
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HL2 GNL-3014
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HL3 GNL-3014
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HL4 GNL-3014
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HL5 GNL-3014
+Added Member To Class: ClassName=CircuitControlDriver Member=Component HL6 GNL-3014
+Added Member To Class: ClassName=CircuitControlDriver Member=Component R17 10kÎì
+Added Member To Class: ClassName=CircuitControlDriver Member=Component XP2 AC-014
+Added Room: Name=CircuitControlDriver

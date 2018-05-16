@@ -1,0 +1,7 @@
+Change Component Comment : Designator=ZQ1 Old Comment=1MHz New Comment=8MHz
+Change Component Comment : Designator=C6 Old Comment=Capasitor New Comment=27pF
+Change Component Comment : Designator=C7 Old Comment=Capasitor New Comment=27pF
+Change Component Comment : Designator=C4 Old Comment=Capasitor New Comment=100nF
+Added Pin To Net: NetName=RESET Pin=DD1-18
+Added Room: Name=BlockControl
+Added Room: Name=StepUpConverter

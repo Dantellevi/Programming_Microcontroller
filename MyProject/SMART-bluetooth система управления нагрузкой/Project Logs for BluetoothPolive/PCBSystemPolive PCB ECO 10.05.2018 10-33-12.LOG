@@ -1,0 +1,34 @@
+Change Component Comment : Designator=XP3 Old Comment=под клемники New Comment=XY2500R-A-2P
+Change component parameters: Designator = "VD1"; Footprint = "SOD-123"; UniqueID = "\XNROLECN\GOTSBMSG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "GALAXY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=08853"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP3"; Footprint = "KLS2-EDR-500-2P"; UniqueID = "\XNROLECN\JPKDSVNK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Package"; Value = "XY2500R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "XY2500R-A-2P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0,10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=14514"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "500VDC"; VariantName = "[No Variations]"
+Added Component: Designator=HL1(GNL-3014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-NOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "GNL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GNL-3014SRD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shopping Place"; Value = "http://belchip.by/product/?selected_product=00813"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetHL1_1 Pin=HL1-1
+Added Pin To Net: NetName=NetHL1_2 Pin=HL1-2
+Added Member To Class: ClassName=Микроконтроллер Member=Component HL1 GNL-3014
+Added Room: Name=LCD2004
+Added Room: Name=RTC
+Added Room: Name=Блок Питания
+Added Room: Name=Микроконтроллер

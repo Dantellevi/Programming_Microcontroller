@@ -1,0 +1,49 @@
+Added Component: Designator=*(Con_12)
+Added Component: Designator=*(Con_220)
+Added Component: Designator=C1(KXP2220)
+Added Component: Designator=C2(JN1)
+Added Component: Designator=C3(JN1)
+Added Component: Designator=C4(RD1H108M12025BB)
+Added Component: Designator=FU1(FU2A)
+Added Component: Designator=L1(ET24)
+Added Component: Designator=SA1(Switcher)
+Added Component: Designator=T1(TransformIE48)
+Added Component: Designator=VD1(RC-407)
+Added Component: Designator=XP2(Con_5V)
+Added Pin To Net: NetName=ETH Pin=*-3
+Added Pin To Net: NetName=ETH Pin=C2-2
+Added Pin To Net: NetName=ETH Pin=C3-1
+Added Net: Name=ETH
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=Net*_1 Pin=C4-1
+Added Pin To Net: NetName=Net*_1 Pin=VD1-1
+Added Pin To Net: NetName=Net*_1 Pin=XP2-1
+Added Net: Name=Net*_1
+Added Pin To Net: NetName=Net*_2 Pin=*-2
+Added Pin To Net: NetName=Net*_2 Pin=C4-2
+Added Pin To Net: NetName=Net*_2 Pin=VD1-4
+Added Pin To Net: NetName=Net*_2 Pin=XP2-2
+Added Net: Name=Net*_2
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=FU1-2
+Added Pin To Net: NetName=NetC1_1 Pin=L1-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=L1-2
+Added Pin To Net: NetName=NetC2_1 Pin=T1-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=L1-3
+Added Pin To Net: NetName=NetC3_2 Pin=T1-6
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetFU1_1 Pin=FU1-1
+Added Pin To Net: NetName=NetFU1_1 Pin=SA1-2
+Added Net: Name=NetFU1_1
+Added Pin To Net: NetName=NetT1_8 Pin=T1-8
+Added Pin To Net: NetName=NetT1_8 Pin=VD1-2
+Added Net: Name=NetT1_8
+Added Pin To Net: NetName=NetT1_11 Pin=T1-11
+Added Pin To Net: NetName=NetT1_11 Pin=VD1-3
+Added Net: Name=NetT1_11
+Added Class: Name=Circuit
+Added Room: Name=Circuit

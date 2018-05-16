@@ -1,0 +1,15 @@
+Added Component: Designator=A1(KAM705)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHINFA ELECTRONICS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "48x45x18.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "KAM0705"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "https://www.ru-chipdip.by/product/kam-0705"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220V/5V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetA1_1 Pin=A1-1
+Added Pin To Net: NetName=NetA1_2 Pin=A1-2
+Added Pin To Net: NetName=PGND Pin=A1-3
+Added Pin To Net: NetName=VCC Pin=A1-4
+Added Member To Class: ClassName=CircuitControlDriver Member=Component A1 KAM0705
+Added Room: Name=CircuitControlDriver

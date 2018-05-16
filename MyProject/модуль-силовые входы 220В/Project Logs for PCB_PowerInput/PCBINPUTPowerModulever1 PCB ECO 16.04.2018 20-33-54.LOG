@@ -1,0 +1,456 @@
+Added Component: Designator=R1(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R2(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R3(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R4(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R5(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R6(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R7(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R8(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R9(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R10(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R11(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R12(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R13(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R14(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R15(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R16(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R17(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R18(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R19(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R20(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R21(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R22(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R23(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0151P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=08041"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R24(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R26(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R27(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R28(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R29(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R30(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R31(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=R32(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(IDC-10-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "RUICHI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IDC BH-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=01919"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XT1(KLS2-EDR-500-8P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "KLS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "KLS2-EDGK-500-08P-4C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=19113"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XT2(KLS2-EDR-500-8P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "KLS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "KLS2-EDGK-500-08P-4C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=19113"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR1_2 Pin=R6-1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR2_2 Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR3_2 Pin=R8-1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR4_2 Pin=R9-1
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR5_2 Pin=R10-1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR6_2 Pin=R11-1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR7_2 Pin=R12-1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR8_2 Pin=R13-1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR9_2 Pin=R14-1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR10_2 Pin=R15-1
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR11_2 Pin=R16-1
+Added Pin To Net: NetName=SW4_1 Pin=R16-2
+Added Pin To Net: NetName=NetR12_2 Pin=R17-1
+Added Pin To Net: NetName=SW5_1 Pin=R17-2
+Added Pin To Net: NetName=NetR13_2 Pin=R18-1
+Added Pin To Net: NetName=SW2_1 Pin=R18-2
+Added Pin To Net: NetName=NetR14_2 Pin=R19-1
+Added Pin To Net: NetName=SW3_1 Pin=R19-2
+Added Pin To Net: NetName=NetR15_2 Pin=R20-1
+Added Pin To Net: NetName=SW1_1 Pin=R20-2
+Added Pin To Net: NetName=NetR21_1 Pin=R21-1
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=NetR22_1 Pin=R22-1
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Pin To Net: NetName=NetR23_1 Pin=R23-1
+Added Pin To Net: NetName=NetR23_2 Pin=R23-2
+Added Pin To Net: NetName=NetR21_2 Pin=R24-1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR23_2 Pin=R26-1
+Added Pin To Net: NetName=NetR26_2 Pin=R26-2
+Added Pin To Net: NetName=NetR24_2 Pin=R27-1
+Added Pin To Net: NetName=NetR27_2 Pin=R27-2
+Added Pin To Net: NetName=NetR25_2 Pin=R28-1
+Added Pin To Net: NetName=NetR28_2 Pin=R28-2
+Added Pin To Net: NetName=NetR26_2 Pin=R29-1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR27_2 Pin=R30-1
+Added Pin To Net: NetName=SW6_1 Pin=R30-2
+Added Pin To Net: NetName=NetR28_2 Pin=R31-1
+Added Pin To Net: NetName=SW7_1 Pin=R31-2
+Added Pin To Net: NetName=NetR29_2 Pin=R32-1
+Added Pin To Net: NetName=SW8_1 Pin=R32-2
+Added Pin To Net: NetName=INPUT1 Pin=XP1-1
+Added Pin To Net: NetName=INPUT2 Pin=XP1-2
+Added Pin To Net: NetName=INPUT3 Pin=XP1-3
+Added Pin To Net: NetName=INPUT4 Pin=XP1-4
+Added Pin To Net: NetName=INPUT5 Pin=XP1-5
+Added Pin To Net: NetName=INPUT6 Pin=XP1-6
+Added Pin To Net: NetName=INPUT7 Pin=XP1-7
+Added Pin To Net: NetName=INPUT8 Pin=XP1-8
+Added Pin To Net: NetName=VCC Pin=XP1-9
+Added Pin To Net: NetName=GND Pin=XP1-10
+Added Pin To Net: NetName=SW1_1 Pin=XT1-1
+Added Pin To Net: NetName=SW1_2 Pin=XT1-2
+Added Pin To Net: NetName=SW2_1 Pin=XT1-3
+Added Pin To Net: NetName=SW2_2 Pin=XT1-4
+Added Pin To Net: NetName=SW3_1 Pin=XT1-5
+Added Pin To Net: NetName=SW3_2 Pin=XT1-6
+Added Pin To Net: NetName=SW4_1 Pin=XT1-7
+Added Pin To Net: NetName=SW4_2 Pin=XT1-8
+Added Pin To Net: NetName=SW5_1 Pin=XT2-1
+Added Pin To Net: NetName=SW5_2 Pin=XT2-2
+Added Pin To Net: NetName=SW6_1 Pin=XT2-3
+Added Pin To Net: NetName=SW6_2 Pin=XT2-4
+Added Pin To Net: NetName=SW7_1 Pin=XT2-5
+Added Pin To Net: NetName=SW7_2 Pin=XT2-6
+Added Pin To Net: NetName=SW8_1 Pin=XT2-7
+Added Pin To Net: NetName=SW8_2 Pin=XT2-8
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R1 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R2 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R3 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R4 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R5 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R6 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R7 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R8 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R9 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R10 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R11 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R12 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R13 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R14 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R15 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R16 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R17 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R18 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R19 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R20 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R21 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R22 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R23 CFR02WJ0151P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R24 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R26 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R27 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R28 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R29 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R30 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R31 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R32 CFR02WJ0512P5
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component XP1 IDC BH-10
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component XT1 KLS2-EDGK-500-08P-4C
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component XT2 KLS2-EDGK-500-08P-4C

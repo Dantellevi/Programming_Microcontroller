@@ -1,0 +1,12 @@
+Output: DrillFile
+Type  : NC Drill
+From  : PCB Document [PCBAT2560ver1.PcbDoc]
+   Generated File[PCBAT2560ver1.TXT]
+   Generated File[PCBAT2560ver1.LDP]
+   Generated File[PCBAT2560ver1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:29:04 On 08.02.2018

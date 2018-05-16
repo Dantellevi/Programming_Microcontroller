@@ -1,0 +1,421 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 6 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"492 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"14 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\DS18B20.c
+[v _start_meas start_meas `(v  1 e 1 0 ]
+"27
+[v _read_meas read_meas `(v  1 e 1 0 ]
+"149
+[v _Indicate_LCDTemp Indicate_LCDTemp `(v  1 e 1 0 ]
+"8 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\LCDlib.c
+[v _LCD_SendData LCD_SendData `(v  1 e 1 0 ]
+"48
+[v _LCD_SendCommand LCD_SendCommand `(v  1 e 1 0 ]
+"62
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"102
+[v _LCD_PrintChar LCD_PrintChar `(v  1 e 1 0 ]
+"120
+[v _LCD_PrintString LCD_PrintString `(v  1 e 1 0 ]
+"132
+[v _LCD_GoToXY LCD_GoToXY `(v  1 e 1 0 ]
+"179
+[v _LCD_PrintStringXY LCD_PrintStringXY `(v  1 e 1 0 ]
+"190
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"4 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"3 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\OneWire.c
+[v _OneWire_reset OneWire_reset `(uc  1 e 1 0 ]
+"24
+[v _OneWire_Bit_IO OneWire_Bit_IO `(uc  1 e 1 0 ]
+"45
+[v _OneWire_Byte_Write OneWire_Byte_Write `(ui  1 e 2 0 ]
+"60
+[v _OneWire_Byte_Read OneWire_Byte_Read `(ui  1 e 2 0 ]
+"67
+[v _w1_rom_search w1_rom_search `(uc  1 e 1 0 ]
+"108
+[v _OneWire_command OneWire_command `(v  1 e 1 0 ]
+"8 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\USART.c
+[v _USART_Init USART_Init `(uc  1 e 1 0 ]
+"37
+[v _Transmit_char Transmit_char `(v  1 e 1 0 ]
+"58
+[v _Usart_PrintString Usart_PrintString `(v  1 e 1 0 ]
+"74
+[v _USART_Read USART_Read `(uc  1 e 1 0 ]
+[s S19 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"231 D:\Program Files\Microchip\xc8\v1.45\include\pic16f877.h
+[u S28 . 1 `S19 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES28  1 e 1 @6 ]
+"276
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S116 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"293
+[u S125 . 1 `S116 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES125  1 e 1 @7 ]
+"1052
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1059
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1368
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2066
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2244
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2290
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2402
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2428
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2474
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2494
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2556
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"2558
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"2560
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"2572
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1080 ]
+"2584
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2586
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"2610
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"2620
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"354 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `DC[4]ui  1 s 8 hexpowers ]
+"4 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\DS18B20.c
+[v _temp temp `ui  1 e 2 0 ]
+"5
+[v _Tvnesh Tvnesh `ui  1 e 2 0 ]
+"6
+[v _Tvnyt Tvnyt `ui  1 e 2 0 ]
+"10
+[v _ZNAK ZNAK `uc  1 e 1 0 ]
+"4 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"23
+} 0
+"14 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\DS18B20.c
+[v _start_meas start_meas `(v  1 e 1 0 ]
+{
+"23
+} 0
+"108 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\OneWire.c
+[v _OneWire_command OneWire_command `(v  1 e 1 0 ]
+{
+[v OneWire_command@command command `uc  1 a 1 wreg ]
+"110
+[v OneWire_command@i i `uc  1 a 1 12 ]
+"108
+[v OneWire_command@command command `uc  1 a 1 wreg ]
+[v OneWire_command@id id `*.1uc  1 p 1 9 ]
+"111
+[v OneWire_command@command command `uc  1 a 1 11 ]
+"123
+} 0
+"27 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\DS18B20.c
+[v _read_meas read_meas `(v  1 e 1 0 ]
+{
+"30
+[v read_meas@s s `[30]uc  1 a 30 24 ]
+"29
+[v read_meas@id id `[8]uc  1 a 8 56 ]
+"32
+[v read_meas@byte byte `[2]uc  1 a 2 54 ]
+"35
+[v read_meas@count count `uc  1 a 1 68 ]
+"29
+[v read_meas@diff diff `uc  1 a 1 67 ]
+"33
+[v read_meas@i i `uc  1 a 1 66 ]
+"145
+} 0
+"67 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\OneWire.c
+[v _w1_rom_search w1_rom_search `(uc  1 e 1 0 ]
+{
+[v w1_rom_search@diff diff `uc  1 a 1 wreg ]
+"70
+[v w1_rom_search@b b `uc  1 a 1 4 ]
+"69
+[v w1_rom_search@i i `uc  1 a 1 3 ]
+[v w1_rom_search@next_diff next_diff `uc  1 a 1 1 ]
+[v w1_rom_search@j j `uc  1 a 1 0 ]
+"67
+[v w1_rom_search@diff diff `uc  1 a 1 wreg ]
+[v w1_rom_search@id id `*.4uc  1 p 1 9 ]
+"72
+[v w1_rom_search@diff diff `uc  1 a 1 2 ]
+"102
+} 0
+"3
+[v _OneWire_reset OneWire_reset `(uc  1 e 1 0 ]
+{
+"5
+[v OneWire_reset@err err `uc  1 a 1 2 ]
+"20
+} 0
+"58 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\USART.c
+[v _Usart_PrintString Usart_PrintString `(v  1 e 1 0 ]
+{
+"60
+[v Usart_PrintString@i i `uc  1 a 1 4 ]
+"58
+[v Usart_PrintString@Text Text `*.26uc  1 p 2 1 ]
+"66
+} 0
+"37
+[v _Transmit_char Transmit_char `(v  1 e 1 0 ]
+{
+[v Transmit_char@data data `uc  1 a 1 wreg ]
+[v Transmit_char@data data `uc  1 a 1 wreg ]
+[v Transmit_char@data data `uc  1 a 1 0 ]
+"43
+} 0
+"60 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\OneWire.c
+[v _OneWire_Byte_Read OneWire_Byte_Read `(ui  1 e 2 0 ]
+{
+"63
+} 0
+"45
+[v _OneWire_Byte_Write OneWire_Byte_Write `(ui  1 e 2 0 ]
+{
+[v OneWire_Byte_Write@b b `uc  1 a 1 wreg ]
+"47
+[v OneWire_Byte_Write@j j `uc  1 a 1 7 ]
+[v OneWire_Byte_Write@i i `uc  1 a 1 6 ]
+"45
+[v OneWire_Byte_Write@b b `uc  1 a 1 wreg ]
+"47
+[v OneWire_Byte_Write@b b `uc  1 a 1 8 ]
+"58
+} 0
+"24
+[v _OneWire_Bit_IO OneWire_Bit_IO `(uc  1 e 1 0 ]
+{
+[v OneWire_Bit_IO@b b `uc  1 a 1 wreg ]
+[v OneWire_Bit_IO@b b `uc  1 a 1 wreg ]
+"26
+[v OneWire_Bit_IO@b b `uc  1 a 1 1 ]
+"42
+} 0
+"149 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\DS18B20.c
+[v _Indicate_LCDTemp Indicate_LCDTemp `(v  1 e 1 0 ]
+{
+[v Indicate_LCDTemp@flag flag `uc  1 a 1 wreg ]
+"152
+[v Indicate_LCDTemp@bufferVnyt bufferVnyt `[30]uc  1 a 30 30 ]
+"151
+[v Indicate_LCDTemp@bufferVn bufferVn `[30]uc  1 a 30 0 ]
+"149
+[v Indicate_LCDTemp@flag flag `uc  1 a 1 wreg ]
+[v Indicate_LCDTemp@znakflag znakflag `uc  1 p 1 19 ]
+[v Indicate_LCDTemp@flag flag `uc  1 a 1 60 ]
+"190
+} 0
+"492 D:\Program Files\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"1500
+[v sprintf@idx idx `uc  1 a 1 9 ]
+"501
+[v sprintf@width width `i  1 a 2 15 ]
+"528
+[v sprintf@val val `ui  1 a 2 12 ]
+"499
+[v sprintf@c c `c  1 a 1 18 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 14 ]
+"506
+[v sprintf@prec prec `c  1 a 1 11 ]
+"494
+[v sprintf@ap ap `[1]*.4v  1 a 1 10 ]
+"492
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.25DCuc  1 p 2 0 ]
+"533
+[v sprintf@sp sp `*.4uc  1 a 1 17 ]
+"1541
+} 0
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+"26
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"179 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\LCDlib.c
+[v _LCD_PrintStringXY LCD_PrintStringXY `(v  1 e 1 0 ]
+{
+[v LCD_PrintStringXY@str str `*.26uc  1 p 2 8 ]
+[v LCD_PrintStringXY@x x `uc  1 p 1 10 ]
+[v LCD_PrintStringXY@y y `uc  1 p 1 11 ]
+"183
+} 0
+"120
+[v _LCD_PrintString LCD_PrintString `(v  1 e 1 0 ]
+{
+[v LCD_PrintString@str str `*.26uc  1 p 2 4 ]
+"127
+} 0
+"102
+[v _LCD_PrintChar LCD_PrintChar `(v  1 e 1 0 ]
+{
+[v LCD_PrintChar@c c `uc  1 a 1 wreg ]
+[v LCD_PrintChar@c c `uc  1 a 1 wreg ]
+"104
+[v LCD_PrintChar@c c `uc  1 a 1 3 ]
+"114
+} 0
+"132
+[v _LCD_GoToXY LCD_GoToXY `(v  1 e 1 0 ]
+{
+[v LCD_GoToXY@x x `uc  1 a 1 wreg ]
+"138
+[v LCD_GoToXY@temp temp `uc  1 a 1 7 ]
+"132
+[v LCD_GoToXY@x x `uc  1 a 1 wreg ]
+[v LCD_GoToXY@y y `uc  1 p 1 4 ]
+"134
+[v LCD_GoToXY@x x `uc  1 a 1 6 ]
+"174
+} 0
+"8 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\USART.c
+[v _USART_Init USART_Init `(uc  1 e 1 0 ]
+{
+"10
+[v USART_Init@x x `ui  1 a 2 9 ]
+"8
+[v USART_Init@baud baud `l  1 p 4 6 ]
+"30
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.45\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"42
+} 0
+"62 D:\Projects_Electronics\термометр цифровой PIC\embedded\Termometr_ver2.X\LCDlib.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+[v LCD_Init@lcd lcd `uc  1 a 1 wreg ]
+[v LCD_Init@lcd lcd `uc  1 a 1 wreg ]
+"64
+[v LCD_Init@lcd lcd `uc  1 a 1 6 ]
+"96
+} 0
+"190
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"194
+} 0
+"48
+[v _LCD_SendCommand LCD_SendCommand `(v  1 e 1 0 ]
+{
+[v LCD_SendCommand@com com `uc  1 a 1 wreg ]
+[v LCD_SendCommand@com com `uc  1 a 1 wreg ]
+"50
+[v LCD_SendCommand@com com `uc  1 a 1 3 ]
+"55
+} 0
+"8
+[v _LCD_SendData LCD_SendData `(v  1 e 1 0 ]
+{
+[v LCD_SendData@data data `uc  1 a 1 wreg ]
+[v LCD_SendData@data data `uc  1 a 1 wreg ]
+"10
+[v LCD_SendData@data data `uc  1 a 1 0 ]
+"42
+} 0

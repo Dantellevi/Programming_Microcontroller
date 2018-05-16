@@ -1,0 +1,254 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4515 ]
+[d frameptr 4065 ]
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 D:\Program Files\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 D:\Program Files\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.45\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"11 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\KS108.c
+[v _GLDKS108_SendCommand GLDKS108_SendCommand `(v  1 e 1 0 ]
+"29
+[v _GLDKS108_SendData GLDKS108_SendData `(v  1 e 1 0 ]
+"98
+[v _GLDKS108_GotoXY GLDKS108_GotoXY `(v  1 e 1 0 ]
+"140
+[v _GLDKS108_Init GLDKS108_Init `(v  1 e 1 0 ]
+"178
+[v _GLD_Draw_Point GLD_Draw_Point `(v  1 e 1 0 ]
+"224
+[v _GLD_abs GLD_abs `(i  1 e 2 0 ]
+"230
+[v _GLD_sign GLD_sign `(i  1 e 2 0 ]
+"246
+[v _GLD_Draw_Line GLD_Draw_Line `(v  1 e 1 0 ]
+"295
+[v _GLD_Draw_Ellipse GLD_Draw_Ellipse `(v  1 e 1 0 ]
+"334
+[v _GLD_printChar GLD_printChar `(v  1 e 1 0 ]
+"384
+[v _GLD_print_string GLD_print_string `(v  1 e 1 0 ]
+"401
+[v _GLD_Printf_String GLD_Printf_String `(v  1 e 1 0 ]
+"5 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"4 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\chars.h
+[v _symbol symbol `C[160][5]uc  1 e 800 0 ]
+[s S67 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"470 D:\Program Files\Microchip\xc8\v1.45\include\pic18f4515.h
+[s S76 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S85 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S94 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S96 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S100 . 1 `S67 1 . 1 0 `S76 1 . 1 0 `S85 1 . 1 0 `S94 1 . 1 0 `S96 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES100  1 e 1 @3970 ]
+"600
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S141 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1921
+[u S159 . 1 `S141 1 . 1 0 `S67 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES159  1 e 1 @3988 ]
+"2111
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"5 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"7
+[v main@buf buf `[20]uc  1 a 20 32 ]
+"6
+[v main@F3258 F3258 `[20]uc  1 s 20 F3258 ]
+"16
+} 0
+"401 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\KS108.c
+[v _GLD_Printf_String GLD_Printf_String `(v  1 e 1 0 ]
+{
+[v GLD_Printf_String@x x `uc  1 a 1 wreg ]
+[v GLD_Printf_String@x x `uc  1 a 1 wreg ]
+[v GLD_Printf_String@y y `uc  1 p 1 28 ]
+[v GLD_Printf_String@str str `*.25uc  1 p 2 29 ]
+"403
+[v GLD_Printf_String@x x `uc  1 a 1 31 ]
+"404
+} 0
+"4 D:\Program Files\Microchip\xc8\v1.45\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.35Cuc  1 a 2 4 ]
+"4
+[v strlen@s s `*.35Cuc  1 p 2 0 ]
+"13
+} 0
+"384 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\KS108.c
+[v _GLD_print_string GLD_print_string `(v  1 e 1 0 ]
+{
+[v GLD_print_string@x0 x0 `uc  1 a 1 wreg ]
+"390
+[v GLD_print_string@i i `uc  1 a 1 27 ]
+"387
+[v GLD_print_string@y y `uc  1 a 1 26 ]
+"386
+[v GLD_print_string@x x `uc  1 a 1 25 ]
+"384
+[v GLD_print_string@x0 x0 `uc  1 a 1 wreg ]
+[v GLD_print_string@y0 y0 `uc  1 p 1 18 ]
+[v GLD_print_string@buffer buffer `*.35uc  1 p 2 19 ]
+[v GLD_print_string@count count `uc  1 p 1 21 ]
+"386
+[v GLD_print_string@x0 x0 `uc  1 a 1 24 ]
+"395
+} 0
+"334
+[v _GLD_printChar GLD_printChar `(v  1 e 1 0 ]
+{
+[v GLD_printChar@x0 x0 `uc  1 a 1 wreg ]
+"356
+[v GLD_printChar@i i `uc  1 a 1 17 ]
+"337
+[v GLD_printChar@y y `uc  1 a 1 16 ]
+"336
+[v GLD_printChar@x x `uc  1 a 1 15 ]
+"334
+[v GLD_printChar@x0 x0 `uc  1 a 1 wreg ]
+[v GLD_printChar@y0 y0 `uc  1 p 1 10 ]
+[v GLD_printChar@code code `uc  1 p 1 11 ]
+"336
+[v GLD_printChar@x0 x0 `uc  1 a 1 14 ]
+"373
+} 0
+"295
+[v _GLD_Draw_Ellipse GLD_Draw_Ellipse `(v  1 e 1 0 ]
+{
+[v GLD_Draw_Ellipse@x0 x0 `uc  1 a 1 wreg ]
+"298
+[v GLD_Draw_Ellipse@y y `i  1 a 2 26 ]
+"297
+[v GLD_Draw_Ellipse@x x `i  1 a 2 24 ]
+"299
+[v GLD_Draw_Ellipse@delta delta `i  1 a 2 22 ]
+"300
+[v GLD_Draw_Ellipse@error error `i  1 a 2 19 ]
+"295
+[v GLD_Draw_Ellipse@x0 x0 `uc  1 a 1 wreg ]
+[v GLD_Draw_Ellipse@y0 y0 `uc  1 p 1 15 ]
+[v GLD_Draw_Ellipse@radius radius `uc  1 p 1 16 ]
+"297
+[v GLD_Draw_Ellipse@x0 x0 `uc  1 a 1 21 ]
+"325
+} 0
+"178
+[v _GLD_Draw_Point GLD_Draw_Point `(v  1 e 1 0 ]
+{
+[v GLD_Draw_Point@x x `uc  1 a 1 wreg ]
+"182
+[v GLD_Draw_Point@pins pins `uc  1 a 1 13 ]
+"178
+[v GLD_Draw_Point@x x `uc  1 a 1 wreg ]
+[v GLD_Draw_Point@y y `uc  1 p 1 10 ]
+"180
+[v GLD_Draw_Point@x x `uc  1 a 1 14 ]
+"214
+} 0
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"42
+} 0
+"29 D:\GitRepository\Programming_Microcontroller\PIC\GLD-дисплей\Project_KS108.X\KS108.c
+[v _GLDKS108_SendData GLDKS108_SendData `(v  1 e 1 0 ]
+{
+[v GLDKS108_SendData@data data `uc  1 a 1 wreg ]
+[v GLDKS108_SendData@data data `uc  1 a 1 wreg ]
+"31
+[v GLDKS108_SendData@data data `uc  1 a 1 0 ]
+"39
+} 0
+"98
+[v _GLDKS108_GotoXY GLDKS108_GotoXY `(v  1 e 1 0 ]
+{
+[v GLDKS108_GotoXY@x x `uc  1 a 1 wreg ]
+[v GLDKS108_GotoXY@x x `uc  1 a 1 wreg ]
+[v GLDKS108_GotoXY@y y `uc  1 p 1 8 ]
+"100
+[v GLDKS108_GotoXY@x x `uc  1 a 1 9 ]
+"133
+} 0
+"140
+[v _GLDKS108_Init GLDKS108_Init `(v  1 e 1 0 ]
+{
+"169
+} 0
+"11
+[v _GLDKS108_SendCommand GLDKS108_SendCommand `(v  1 e 1 0 ]
+{
+[v GLDKS108_SendCommand@command command `uc  1 a 1 wreg ]
+[v GLDKS108_SendCommand@command command `uc  1 a 1 wreg ]
+"13
+[v GLDKS108_SendCommand@command command `uc  1 a 1 0 ]
+"21
+} 0

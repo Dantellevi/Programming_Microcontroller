@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=+3V3 Pin=R14-1
+Added Pin To Net: NetName=+3V3 Pin=R15-2
+Added Room: Name=LCD2004
+Added Room: Name=RTC
+Added Room: Name=Блок Питания
+Added Room: Name=Микроконтроллер

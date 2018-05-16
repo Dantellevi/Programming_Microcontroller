@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: D:\мои проекты\проекты МК AVRVR\проект2-RGB-controller\PCB_project\PCB181216ver1.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=19.69
+RuleKind=Width|RuleName=DIGITAL|Scope=Board|Minimum=11.81
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=OTHERS|Scope=Board|Minimum=19.69
+RuleKind=Width|RuleName=12V|Scope=Board|Minimum=39.37
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=19.69

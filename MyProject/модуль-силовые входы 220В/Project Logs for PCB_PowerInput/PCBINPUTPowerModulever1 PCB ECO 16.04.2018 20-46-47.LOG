@@ -1,0 +1,14 @@
+Added Component: Designator=R25(MOF-2W-15x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Royal Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "AXELPackage"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CFR02WJ0512P5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHoppingPlace"; Value = "http://belchip.by/product/?selected_product=05907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR22_2 Pin=R25-1
+Added Pin To Net: NetName=NetR25_2 Pin=R25-2
+Added Member To Class: ClassName=SheetCircuitInputPowerModule220V Member=Component R25 CFR02WJ0512P5
+Added Room: Name=SheetCircuitInputPowerModule220V

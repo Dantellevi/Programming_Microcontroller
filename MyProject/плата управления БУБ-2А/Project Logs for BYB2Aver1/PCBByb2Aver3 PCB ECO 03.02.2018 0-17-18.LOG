@@ -1,0 +1,469 @@
+Added Component: Designator=C1(Capasitor)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "EMN1223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = "0.25uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(Capasitor)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "ELM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = "0.25uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "160B"; VariantName = "[No Variations]"
+Added Component: Designator=C3(Capasitor)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "ELM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = "0.25uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "160B"; VariantName = "[No Variations]"
+Added Component: Designator=HL1(GNLR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marka"; Value = "¿À-203"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RES2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k2"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "680"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R5025"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RE5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k9"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RES5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k9"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RES5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RES5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RES5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k9"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "RES5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k9"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k9"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "820"; VariantName = "[No Variations]"
+Added Component: Designator=R18(Resistor_2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Component: Designator=R19(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560"; VariantName = "[No Variations]"
+Added Component: Designator=R20(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k3"; VariantName = "[No Variations]"
+Added Component: Designator=R21(Resistor_2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560"; VariantName = "[No Variations]"
+Added Component: Designator=R22(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560"; VariantName = "[No Variations]"
+Added Component: Designator=R23(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k3"; VariantName = "[No Variations]"
+Added Component: Designator=R24(Resistor_2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560"; VariantName = "[No Variations]"
+Added Component: Designator=R25(Resistor_2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560"; VariantName = "[No Variations]"
+Added Component: Designator=R26(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "560"; VariantName = "[No Variations]"
+Added Component: Designator=R27(RESC5025L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "R2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k3"; VariantName = "[No Variations]"
+Added Component: Designator=VD1(DO-41-vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "HER105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-41"; VariantName = "[No Variations]"
+Added Component: Designator=VD2(DO-41-vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "HER105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-41"; VariantName = "[No Variations]"
+Added Component: Designator=VD3(DO-15-Vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "SF-28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-15"; VariantName = "[No Variations]"
+Added Component: Designator=VD4(DO-15-Vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "SF-28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-15"; VariantName = "[No Variations]"
+Added Component: Designator=VD5(DO-15-Vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "SF-28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-15"; VariantName = "[No Variations]"
+Added Component: Designator=VD6(DO-41-vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "BZx85"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-41"; VariantName = "[No Variations]"
+Added Component: Designator=VD7(DO-41-vertical)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "BZx85"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-41"; VariantName = "[No Variations]"
+Added Component: Designator=VT1(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SoT-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT2(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT3(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT4(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Sot-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT5(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "sot-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT6(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Sot-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT7(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Sot-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT8(SOT95P270X110-3N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Marka"; Value = "2SB1198"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Sot-323"; VariantName = "[No Variations]"
+Added Component: Designator=VT9(TO-247-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "marka"; Value = "2SB688"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "package"; Value = "TO-247"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(Connector)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z1(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z2(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z3(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z4(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z5(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z6(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z7(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z8(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z9(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z10(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z11(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z12(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z13(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z14(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z15(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z16(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z17(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z18(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z19(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z20(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z21(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z22(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z23(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z24(point_control)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Z25(point_control)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=20 Pin=C2-2
+Added Pin To Net: NetName=20 Pin=C3-2
+Added Pin To Net: NetName=20 Pin=R27-1
+Added Pin To Net: NetName=20 Pin=VT1-1
+Added Pin To Net: NetName=20 Pin=VT2-1
+Added Pin To Net: NetName=20 Pin=VT3-1
+Added Pin To Net: NetName=20 Pin=VT5-1
+Added Pin To Net: NetName=20 Pin=VT6-1
+Added Pin To Net: NetName=20 Pin=VT7-1
+Added Pin To Net: NetName=20 Pin=VT8-1
+Added Pin To Net: NetName=20 Pin=VT9-3
+Added Pin To Net: NetName=20 Pin=XP1-3
+Added Pin To Net: NetName=20 Pin=Z3-1
+Added Net: Name=20
+Added Pin To Net: NetName=29 Pin=C1-2
+Added Pin To Net: NetName=29 Pin=R1-1
+Added Pin To Net: NetName=29 Pin=R2-2
+Added Pin To Net: NetName=29 Pin=XP1-2
+Added Pin To Net: NetName=29 Pin=Z5-1
+Added Net: Name=29
+Added Pin To Net: NetName=30 Pin=C1-1
+Added Pin To Net: NetName=30 Pin=R1-2
+Added Pin To Net: NetName=30 Pin=R18-1
+Added Pin To Net: NetName=30 Pin=R21-2
+Added Pin To Net: NetName=30 Pin=R24-2
+Added Pin To Net: NetName=30 Pin=R25-2
+Added Pin To Net: NetName=30 Pin=VD5-1
+Added Pin To Net: NetName=30 Pin=XP1-1
+Added Pin To Net: NetName=30 Pin=Z4-1
+Added Net: Name=30
+Added Pin To Net: NetName=40 Pin=R4-2
+Added Pin To Net: NetName=40 Pin=R9-2
+Added Pin To Net: NetName=40 Pin=R12-2
+Added Pin To Net: NetName=40 Pin=R17-2
+Added Pin To Net: NetName=40 Pin=R18-2
+Added Pin To Net: NetName=40 Pin=Z8-1
+Added Net: Name=40
+Added Pin To Net: NetName=45 Pin=R2-1
+Added Pin To Net: NetName=45 Pin=R3-2
+Added Pin To Net: NetName=45 Pin=VT1-2
+Added Pin To Net: NetName=45 Pin=Z6-1
+Added Net: Name=45
+Added Pin To Net: NetName=46 Pin=R5-1
+Added Pin To Net: NetName=46 Pin=R6-2
+Added Pin To Net: NetName=46 Pin=VT2-2
+Added Pin To Net: NetName=46 Pin=Z9-1
+Added Net: Name=46
+Added Pin To Net: NetName=47 Pin=R4-1
+Added Pin To Net: NetName=47 Pin=R7-2
+Added Pin To Net: NetName=47 Pin=VD1-2
+Added Pin To Net: NetName=47 Pin=VT2-3
+Added Pin To Net: NetName=47 Pin=Z7-1
+Added Net: Name=47
+Added Pin To Net: NetName=48 Pin=R7-1
+Added Pin To Net: NetName=48 Pin=R8-2
+Added Pin To Net: NetName=48 Pin=VT3-2
+Added Pin To Net: NetName=48 Pin=Z10-1
+Added Net: Name=48
+Added Pin To Net: NetName=50 Pin=C2-1
+Added Pin To Net: NetName=50 Pin=R5-2
+Added Pin To Net: NetName=50 Pin=R9-1
+Added Pin To Net: NetName=50 Pin=R10-2
+Added Pin To Net: NetName=50 Pin=VT1-3
+Added Pin To Net: NetName=50 Pin=VT3-3
+Added Pin To Net: NetName=50 Pin=Z1-1
+Added Net: Name=50
+Added Pin To Net: NetName=51 Pin=R10-1
+Added Pin To Net: NetName=51 Pin=R11-2
+Added Pin To Net: NetName=51 Pin=VT4-2
+Added Pin To Net: NetName=51 Pin=Z11-1
+Added Pin To Net: NetName=51 Pin=Z12-1
+Added Net: Name=51
+Added Pin To Net: NetName=52 Pin=VD2-2
+Added Pin To Net: NetName=52 Pin=VT4-1
+Added Pin To Net: NetName=52 Pin=VT5-3
+Added Pin To Net: NetName=52 Pin=Z14-1
+Added Net: Name=52
+Added Pin To Net: NetName=53 Pin=R12-1
+Added Pin To Net: NetName=53 Pin=R15-2
+Added Pin To Net: NetName=53 Pin=VT4-3
+Added Pin To Net: NetName=53 Pin=Z13-1
+Added Net: Name=53
+Added Pin To Net: NetName=56 Pin=R15-1
+Added Pin To Net: NetName=56 Pin=R16-2
+Added Pin To Net: NetName=56 Pin=VT6-2
+Added Pin To Net: NetName=56 Pin=Z18-1
+Added Net: Name=56
+Added Pin To Net: NetName=57 Pin=C3-1
+Added Pin To Net: NetName=57 Pin=R17-1
+Added Pin To Net: NetName=57 Pin=R19-2
+Added Pin To Net: NetName=57 Pin=VT6-3
+Added Pin To Net: NetName=57 Pin=XP1-8
+Added Pin To Net: NetName=57 Pin=Z19-1
+Added Net: Name=57
+Added Pin To Net: NetName=58 Pin=R19-1
+Added Pin To Net: NetName=58 Pin=R20-2
+Added Pin To Net: NetName=58 Pin=VT7-2
+Added Pin To Net: NetName=58 Pin=Z20-1
+Added Net: Name=58
+Added Pin To Net: NetName=59 Pin=R21-1
+Added Pin To Net: NetName=59 Pin=R22-2
+Added Pin To Net: NetName=59 Pin=VT7-3
+Added Pin To Net: NetName=59 Pin=XP1-9
+Added Pin To Net: NetName=59 Pin=Z21-1
+Added Net: Name=59
+Added Pin To Net: NetName=60 Pin=R3-1
+Added Pin To Net: NetName=60 Pin=R6-1
+Added Pin To Net: NetName=60 Pin=R8-1
+Added Pin To Net: NetName=60 Pin=R11-1
+Added Pin To Net: NetName=60 Pin=R14-1
+Added Pin To Net: NetName=60 Pin=R16-1
+Added Pin To Net: NetName=60 Pin=R20-1
+Added Pin To Net: NetName=60 Pin=R23-1
+Added Pin To Net: NetName=60 Pin=R26-1
+Added Pin To Net: NetName=60 Pin=XP1-4
+Added Pin To Net: NetName=60 Pin=Z2-1
+Added Net: Name=60
+Added Pin To Net: NetName=61 Pin=R22-1
+Added Pin To Net: NetName=61 Pin=R23-2
+Added Pin To Net: NetName=61 Pin=VT8-2
+Added Pin To Net: NetName=61 Pin=Z22-1
+Added Net: Name=61
+Added Pin To Net: NetName=62 Pin=R24-1
+Added Pin To Net: NetName=62 Pin=R25-1
+Added Pin To Net: NetName=62 Pin=VD3-2
+Added Pin To Net: NetName=62 Pin=VT8-3
+Added Pin To Net: NetName=62 Pin=Z23-1
+Added Net: Name=62
+Added Pin To Net: NetName=63 Pin=R26-2
+Added Pin To Net: NetName=63 Pin=VD4-1
+Added Pin To Net: NetName=63 Pin=VT9-1
+Added Pin To Net: NetName=63 Pin=Z24-1
+Added Net: Name=63
+Added Pin To Net: NetName=65 Pin=HL1-2
+Added Pin To Net: NetName=65 Pin=VD7-1
+Added Pin To Net: NetName=65 Pin=VT9-2
+Added Pin To Net: NetName=65 Pin=XP1-10
+Added Pin To Net: NetName=65 Pin=Z25-1
+Added Net: Name=65
+Added Pin To Net: NetName=NetHL1_1 Pin=HL1-1
+Added Pin To Net: NetName=NetHL1_1 Pin=R27-2
+Added Net: Name=NetHL1_1
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_1 Pin=R14-2
+Added Pin To Net: NetName=NetR13_1 Pin=VT5-2
+Added Pin To Net: NetName=NetR13_1 Pin=Z17-1
+Added Net: Name=NetR13_1
+Added Pin To Net: NetName=NetVD3_1 Pin=VD3-1
+Added Pin To Net: NetName=NetVD3_1 Pin=VD4-2
+Added Net: Name=NetVD3_1
+Added Pin To Net: NetName=NetVD5_2 Pin=VD5-2
+Added Pin To Net: NetName=NetVD5_2 Pin=VD6-2
+Added Net: Name=NetVD5_2
+Added Pin To Net: NetName=NetVD6_1 Pin=VD6-1
+Added Pin To Net: NetName=NetVD6_1 Pin=VD7-2
+Added Net: Name=NetVD6_1
+Added Pin To Net: NetName=x7/2a Pin=VD1-1
+Added Pin To Net: NetName=x7/2a Pin=XP1-5
+Added Net: Name=x7/2a
+Added Pin To Net: NetName=x7/3a Pin=R13-2
+Added Pin To Net: NetName=x7/3a Pin=XP1-7
+Added Pin To Net: NetName=x7/3a Pin=Z16-1
+Added Net: Name=x7/3a
+Added Pin To Net: NetName=x7/4a Pin=VD2-1
+Added Pin To Net: NetName=x7/4a Pin=XP1-6
+Added Pin To Net: NetName=x7/4a Pin=Z15-1
+Added Net: Name=x7/4a
+Added Class: Name=SheetBYB2A
+Added Room: Name=SheetBYB2A

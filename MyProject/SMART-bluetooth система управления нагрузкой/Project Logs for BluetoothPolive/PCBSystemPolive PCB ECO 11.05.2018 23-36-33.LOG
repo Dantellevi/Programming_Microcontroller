@@ -1,0 +1,5 @@
+Added Member To Class: ClassName=Power5V_3V3 Member=Wire NetC11_1
+Added Member To Class: ClassName=Power5V_3V3 Member=Wire NetDA1_1
+Added Member To Class: ClassName=Power24V Member=Wire NetDA2_1
+Added Member To Class: ClassName=Power5V_3V3 Member=Wire NetDA2_2
+Added Member To Class: ClassName=Power5V_3V3 Member=Wire NetDA2_5

@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCB_RGBcontroller.PrjPCB]
+   Generated File[PCB181216ver1.GTL]
+   Generated File[PCB181216ver1.GBL]
+   Generated File[PCB181216ver1.GTO]
+   Generated File[PCB181216ver1.GTS]
+   Generated File[PCB181216ver1.GBS]
+   Generated File[PCB181216ver1.GKO]
+   Generated File[PCB181216ver1.GM1]
+   Generated File[PCB181216ver1.RUL]
+   Generated File[PCB181216ver1.EXTREP]
+   Generated File[PCB181216ver1.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 8:05:02 On 16.03.2017
