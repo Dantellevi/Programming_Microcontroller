@@ -1,0 +1,2 @@
+Removed Member From Class: ClassName=Input_Power Member=GND
+Added Member To Class: ClassName=Nets_5Vout Member=Wire GND

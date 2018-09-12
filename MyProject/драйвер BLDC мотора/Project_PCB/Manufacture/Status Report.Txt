@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB_DriveSwitch_rev1_05062018.PcbDoc]
+   Generated File[Ведомость.TXT]
+   Generated File[Ведомость.LDP]
+   Generated File[Ведомость.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:56:13 On 07.06.2018

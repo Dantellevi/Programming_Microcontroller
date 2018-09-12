@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"basecount_tim\startup_stm32f407xx.o"
+"basecount_tim\system_stm32f4xx.o"
+"basecount_tim\main.o"
+"basecount_tim\stm32f4xx_hal_msp.o"
+"basecount_tim\stm32f4xx_it.o"
+"basecount_tim\stm32f4xx_hal_dma_ex.o"
+"basecount_tim\stm32f4xx_hal_cortex.o"
+"basecount_tim\stm32f4xx_hal_tim.o"
+"basecount_tim\stm32f4xx_hal_flash_ex.o"
+"basecount_tim\stm32f4xx_hal_dma.o"
+"basecount_tim\stm32f4xx_hal_flash.o"
+"basecount_tim\stm32f4xx_hal_rcc_ex.o"
+"basecount_tim\stm32f4xx_hal_pwr.o"
+"basecount_tim\stm32f4xx_hal_pwr_ex.o"
+"basecount_tim\stm32f4xx_hal.o"
+"basecount_tim\stm32f4xx_hal_tim_ex.o"
+"basecount_tim\stm32f4xx_hal_rcc.o"
+"basecount_tim\stm32f4xx_hal_gpio.o"
+"basecount_tim\stm32f4xx_hal_flash_ramfunc.o"
+--library_type=microlib --strict --scatter "BaseCount_TIM\BaseCount_TIM.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BaseCount_TIM.map" -o BaseCount_TIM\BaseCount_TIM.axf

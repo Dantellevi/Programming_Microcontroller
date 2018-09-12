@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Nets_Signal Member=MISO
+Removed Member From Class: ClassName=Nets_Signal Member=MOSI
+Removed Member From Class: ClassName=Nets_Signal Member=SCK
+Added Class: Name=SPI_Prog

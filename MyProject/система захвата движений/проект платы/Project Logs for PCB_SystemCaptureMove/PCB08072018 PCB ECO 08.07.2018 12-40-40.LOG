@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=AGND Pin=DD2-3
+Removed Pin From Net: NetName=AGND Pin=DD2-3
+Removed Pin From Net: NetName=USART1_RxD Pin=DD2-25
+Removed Pin From Net: NetName=USART1_TxD Pin=DD2-26
+Removed Pin From Net: NetName=+5V Pin=R2-1
+Removed Member From Class: ClassName=circuitMain Member=DD3
+Removed Member From Class: ClassName=circuitMain Member=R14
+Change Component Designator: OldDesignator=DD3 NewDesignator=DD2
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Net Name : Old Net Name=NetDD3_60 New Net Name=NetDD2_60
+Added Room: Name=circuitMain

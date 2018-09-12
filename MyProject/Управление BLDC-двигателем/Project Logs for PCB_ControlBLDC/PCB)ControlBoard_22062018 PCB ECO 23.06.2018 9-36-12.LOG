@@ -1,0 +1,6 @@
+Added Member To Class: ClassName=Nets_5Vout Member=Wire ADC_U
+Added Member To Class: ClassName=Nets_5Vout Member=Wire ADC_V
+Added Member To Class: ClassName=Nets_5Vout Member=Wire ADC_W
+Added Member To Class: ClassName=Input_Power Member=Wire NetR13_1
+Added Member To Class: ClassName=Input_Power Member=Wire NetR14_1
+Added Member To Class: ClassName=Input_Power Member=Wire NetR15_1

@@ -1,0 +1,451 @@
+Added Component: Designator=C1(CAPTtantaltypeA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "typeA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TA2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=03141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPTtantaltypeA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "typeA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TA2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=03141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPTtantaltypeA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "typeA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TA2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=03141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPTtantaltypeA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "typeA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TA2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=03141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPTtantaltypeA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "typeA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TA2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=03141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPTtantaltypeA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "typeA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TA2u2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=03141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Added Component: Designator=DA1(SO-8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacture"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IR2101SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "1.27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06498"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DA2(SO-8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacture"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IR2101SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "1.27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06498"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DA3(SO-8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacture"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IR2101SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "1.27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06498"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1206JR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=30320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 Îì"; VariantName = "[No Variations]"
+Added Component: Designator=R2(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1206JR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=30320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 Îì"; VariantName = "[No Variations]"
+Added Component: Designator=R3(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1206JR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=30320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 Îì"; VariantName = "[No Variations]"
+Added Component: Designator=R4(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1206JR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=30320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 Îì"; VariantName = "[No Variations]"
+Added Component: Designator=R5(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1206JR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=30320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 Îì"; VariantName = "[No Variations]"
+Added Component: Designator=R6(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC1206JR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quntity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=30320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 Îì"; VariantName = "[No Variations]"
+Added Component: Designator=VD1(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD2(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD3(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD4(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD5(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD6(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD7(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD8(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD9(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "DC Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "part Number"; Value = "SS0540"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=15760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VT1(D2PACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "International rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "D2PÀK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRL2910SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "55À, 100Â"; VariantName = "[No Variations]"
+Added Component: Designator=VT2(D2PACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "International rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "D2PÀK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRL2910SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "55À, 100Â"; VariantName = "[No Variations]"
+Added Component: Designator=VT3(D2PACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "International rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "D2PÀK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRL2910SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "55À, 100Â"; VariantName = "[No Variations]"
+Added Component: Designator=VT4(D2PACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "International rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "D2PÀK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRL2910SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "55À, 100Â"; VariantName = "[No Variations]"
+Added Component: Designator=VT5(D2PACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "International rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "D2PÀK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRL2910SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "55À, 100Â"; VariantName = "[No Variations]"
+Added Component: Designator=VT6(D2PACK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "International rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "D2PÀK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRL2910SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=06731"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "55À, 100Â"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(CWF-6R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "KLS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CWF-6R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CWF-6R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "shoppingPlace"; Value = "http://belchip.by/product/?selected_product=32444"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP2(KLS2-EDR-500-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "RoB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "XY2500R-A-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "XY2500R-A-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=14514"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP3(KLS2-EDR-500-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "RoB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "XY2500R-A-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "XY2500R-A-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=14514"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP4(CWF-3R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "KLS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CWF-3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CWF-3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=32444"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP5(CWF-3R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "KLS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CWF-3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CWF-3R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quantity"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ShoppingPlace"; Value = "http://belchip.by/product/?selected_product=32444"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12V Pin=C1-1
+Added Pin To Net: NetName=+12V Pin=C2-1
+Added Pin To Net: NetName=+12V Pin=C3-1
+Added Pin To Net: NetName=+12V Pin=DA1-1
+Added Pin To Net: NetName=+12V Pin=DA2-1
+Added Pin To Net: NetName=+12V Pin=DA3-1
+Added Pin To Net: NetName=+12V Pin=VD1-1
+Added Pin To Net: NetName=+12V Pin=VD2-1
+Added Pin To Net: NetName=+12V Pin=VD3-1
+Added Pin To Net: NetName=+12V Pin=XP2-1
+Added Net: Name=+12V
+Added Pin To Net: NetName=+VDD_M Pin=VT1-2
+Added Pin To Net: NetName=+VDD_M Pin=VT3-2
+Added Pin To Net: NetName=+VDD_M Pin=VT5-2
+Added Pin To Net: NetName=+VDD_M Pin=XP3-1
+Added Net: Name=+VDD_M
+Added Pin To Net: NetName=GND_M Pin=VT2-3
+Added Pin To Net: NetName=GND_M Pin=VT4-3
+Added Pin To Net: NetName=GND_M Pin=VT6-3
+Added Pin To Net: NetName=GND_M Pin=XP3-2
+Added Net: Name=GND_M
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=DA1-4
+Added Pin To Net: NetName=GND Pin=DA2-4
+Added Pin To Net: NetName=GND Pin=DA3-4
+Added Pin To Net: NetName=GND Pin=XP2-2
+Added Net: Name=GND
+Added Pin To Net: NetName=HIN1 Pin=DA1-2
+Added Pin To Net: NetName=HIN1 Pin=XP1-1
+Added Net: Name=HIN1
+Added Pin To Net: NetName=HIN2 Pin=DA2-2
+Added Pin To Net: NetName=HIN2 Pin=XP1-3
+Added Net: Name=HIN2
+Added Pin To Net: NetName=HIN3 Pin=DA3-2
+Added Pin To Net: NetName=HIN3 Pin=XP1-5
+Added Net: Name=HIN3
+Added Pin To Net: NetName=LIN1 Pin=DA1-3
+Added Pin To Net: NetName=LIN1 Pin=XP1-2
+Added Net: Name=LIN1
+Added Pin To Net: NetName=LIN2 Pin=DA2-3
+Added Pin To Net: NetName=LIN2 Pin=XP1-4
+Added Net: Name=LIN2
+Added Pin To Net: NetName=LIN3 Pin=DA3-3
+Added Pin To Net: NetName=LIN3 Pin=XP1-6
+Added Net: Name=LIN3
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=DA1-8
+Added Pin To Net: NetName=NetC4_1 Pin=VD1-2
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=DA2-8
+Added Pin To Net: NetName=NetC5_1 Pin=VD2-2
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=DA3-8
+Added Pin To Net: NetName=NetC6_1 Pin=VD3-2
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetDA1_5 Pin=DA1-5
+Added Pin To Net: NetName=NetDA1_5 Pin=R2-1
+Added Pin To Net: NetName=NetDA1_5 Pin=VD5-2
+Added Net: Name=NetDA1_5
+Added Pin To Net: NetName=NetDA1_7 Pin=DA1-7
+Added Pin To Net: NetName=NetDA1_7 Pin=R1-1
+Added Pin To Net: NetName=NetDA1_7 Pin=VD4-2
+Added Net: Name=NetDA1_7
+Added Pin To Net: NetName=NetDA2_5 Pin=DA2-5
+Added Pin To Net: NetName=NetDA2_5 Pin=R4-1
+Added Pin To Net: NetName=NetDA2_5 Pin=VD7-2
+Added Net: Name=NetDA2_5
+Added Pin To Net: NetName=NetDA2_7 Pin=DA2-7
+Added Pin To Net: NetName=NetDA2_7 Pin=R3-1
+Added Pin To Net: NetName=NetDA2_7 Pin=VD6-2
+Added Net: Name=NetDA2_7
+Added Pin To Net: NetName=NetDA3_5 Pin=DA3-5
+Added Pin To Net: NetName=NetDA3_5 Pin=R6-1
+Added Pin To Net: NetName=NetDA3_5 Pin=VD9-2
+Added Net: Name=NetDA3_5
+Added Pin To Net: NetName=NetDA3_7 Pin=DA3-7
+Added Pin To Net: NetName=NetDA3_7 Pin=R5-1
+Added Pin To Net: NetName=NetDA3_7 Pin=VD8-2
+Added Net: Name=NetDA3_7
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=VD4-1
+Added Pin To Net: NetName=NetR1_2 Pin=VT1-1
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=VD5-1
+Added Pin To Net: NetName=NetR2_2 Pin=VT2-1
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=VD6-1
+Added Pin To Net: NetName=NetR3_2 Pin=VT3-1
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=VD7-1
+Added Pin To Net: NetName=NetR4_2 Pin=VT4-1
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=VD8-1
+Added Pin To Net: NetName=NetR5_2 Pin=VT5-1
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=VD9-1
+Added Pin To Net: NetName=NetR6_2 Pin=VT6-1
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=U Pin=C4-2
+Added Pin To Net: NetName=U Pin=C5-2
+Added Pin To Net: NetName=U Pin=C6-2
+Added Pin To Net: NetName=U Pin=DA1-6
+Added Pin To Net: NetName=U Pin=DA2-6
+Added Pin To Net: NetName=U Pin=DA3-6
+Added Pin To Net: NetName=U Pin=VT1-3
+Added Pin To Net: NetName=U Pin=VT2-2
+Added Pin To Net: NetName=U Pin=VT3-3
+Added Pin To Net: NetName=U Pin=VT4-2
+Added Pin To Net: NetName=U Pin=VT5-3
+Added Pin To Net: NetName=U Pin=VT6-2
+Added Pin To Net: NetName=U Pin=XP4-1
+Added Pin To Net: NetName=U Pin=XP5-1
+Added Net: Name=U
+Added Pin To Net: NetName=V Pin=XP4-2
+Added Pin To Net: NetName=V Pin=XP5-2
+Added Net: Name=V
+Added Pin To Net: NetName=W Pin=XP4-3
+Added Pin To Net: NetName=W Pin=XP5-3
+Added Net: Name=W
+Added Class: Name=Sheme_PowerOutPut
+Added Room: Name=Sheme_PowerOutPut

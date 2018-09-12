@@ -1,0 +1,6 @@
+Added Class: Name=DIGIT
+Added Class: Name=JTAG
+Added Class: Name=Power
+Added Class: Name=SDRAM
+Added Class: Name=SerialWire
+Added Room: Name=ST-LINK

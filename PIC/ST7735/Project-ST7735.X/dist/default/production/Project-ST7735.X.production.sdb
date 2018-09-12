@@ -1,0 +1,229 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4515 ]
+[d frameptr 4065 ]
+"5 D:\GitRepository\Programming_Microcontroller\PIC\ST7735\Project-ST7735.X\SPI.c
+[e E3124 . `uc
+SPI_MASTER_OSC_DEL4 32
+SPI_MASTER_OSC_DEL16 33
+SPI_MASTER_OSC_DEL64 34
+SPI_MASTER_TMR2 35
+SPI_SLAVE_SS_EN 36
+SPI_SLAVE_SS_DIS 37
+]
+[e E3132 . `uc
+SPI_DATA_SAMPLE_MIDDLE 0
+SPI_DATA_SAMPLE_END 128
+]
+[e E3136 . `uc
+SPI_CLOCK_IDLE_HIGH 8
+SPI_CLOCK_IDLE_LOW 0
+]
+[e E3140 . `uc
+SPI_IDLE_2_ACTIVE 0
+SPI_ACTIVE_2_IDLE 64
+]
+"33 D:\GitRepository\Programming_Microcontroller\PIC\ST7735\Project-ST7735.X\ST7735.c
+[e E3124 . `uc
+SPI_MASTER_OSC_DEL4 32
+SPI_MASTER_OSC_DEL16 33
+SPI_MASTER_OSC_DEL64 34
+SPI_MASTER_TMR2 35
+SPI_SLAVE_SS_EN 36
+SPI_SLAVE_SS_DIS 37
+]
+[e E3132 . `uc
+SPI_DATA_SAMPLE_MIDDLE 0
+SPI_DATA_SAMPLE_END 128
+]
+[e E3136 . `uc
+SPI_CLOCK_IDLE_HIGH 8
+SPI_CLOCK_IDLE_LOW 0
+]
+[e E3140 . `uc
+SPI_IDLE_2_ACTIVE 0
+SPI_ACTIVE_2_IDLE 64
+]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 D:\Program Files\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 D:\Program Files\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 D:\Program Files\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 D:\GitRepository\Programming_Microcontroller\PIC\ST7735\Project-ST7735.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"4 D:\GitRepository\Programming_Microcontroller\PIC\ST7735\Project-ST7735.X\SPI.c
+[v _SpiInit SpiInit `(v  1 e 1 0 ]
+"25
+[v _SpiReceiveWait SpiReceiveWait `(v  1 s 1 SpiReceiveWait ]
+"33
+[v _SPI_Write_Data SPI_Write_Data `(v  1 e 1 0 ]
+"3 D:\GitRepository\Programming_Microcontroller\PIC\ST7735\Project-ST7735.X\ST7735.c
+[v _Transmit_Data Transmit_Data `(v  1 e 1 0 ]
+"14
+[v _ST7735_SendCommand ST7735_SendCommand `(v  1 e 1 0 ]
+"22
+[v _ST7735_SendData ST7735_SendData `(v  1 e 1 0 ]
+[s S202 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"295 D:\Program Files\Microchip\xc8\v1.45\include\pic18f4515.h
+[s S211 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S220 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S229 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S232 . 1 `S202 1 . 1 0 `S211 1 . 1 0 `S220 1 . 1 0 `S229 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES232  1 e 1 @3969 ]
+[s S275 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"637
+[s S284 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S293 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S298 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S301 . 1 `S275 1 . 1 0 `S284 1 . 1 0 `S293 1 . 1 0 `S298 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES301  1 e 1 @3971 ]
+"4772
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"4842
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S47 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"4922
+[s S50 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S53 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S62 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S67 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S72 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S77 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S82 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S85 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S88 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S93 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+]
+[s S97 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DA 1 0 :1:5 
+]
+[s S102 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S107 . 1 `S47 1 . 1 0 `S50 1 . 1 0 `S53 1 . 1 0 `S62 1 . 1 0 `S67 1 . 1 0 `S72 1 . 1 0 `S77 1 . 1 0 `S82 1 . 1 0 `S85 1 . 1 0 `S88 1 . 1 0 `S93 1 . 1 0 `S97 1 . 1 0 `S102 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES107  1 e 1 @4039 ]
+"5074
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7799
+[v _TRISB0 TRISB0 `VEb  1 e 0 @31896 ]
+"7821
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"7825
+[v _TRISC5 TRISC5 `VEb  1 e 0 @31909 ]
+"7839
+[v _TRISD4 TRISD4 `VEb  1 e 0 @31916 ]
+"7841
+[v _TRISD5 TRISD5 `VEb  1 e 0 @31917 ]
+"7845
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"4 D:\GitRepository\Programming_Microcontroller\PIC\ST7735\Project-ST7735.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"10
+} 0

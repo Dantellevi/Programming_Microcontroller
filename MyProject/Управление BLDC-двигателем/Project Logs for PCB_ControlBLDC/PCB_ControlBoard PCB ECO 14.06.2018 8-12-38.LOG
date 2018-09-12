@@ -1,0 +1,5 @@
+Added Class: Name=Nets_Signal
+Added Member To Class: ClassName=Nets_5Vout Member=Wire AREF
+Added Member To Class: ClassName=Nets_5Vout Member=Wire AVCC
+Added Member To Class: ClassName=Nets_5Vout Member=Wire NetC7_2
+Added Member To Class: ClassName=Nets_5Vout Member=Wire RESET

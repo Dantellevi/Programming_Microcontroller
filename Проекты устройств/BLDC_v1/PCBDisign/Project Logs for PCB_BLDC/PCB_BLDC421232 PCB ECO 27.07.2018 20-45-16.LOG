@@ -1,0 +1,4 @@
+Change Component Comment : Designator=JT1 Old Comment= New Comment=JT
+Change Component Comment : Designator=JT2 Old Comment= New Comment=JT
+Change Component Kind : Designator=JT2 Old Kind=Standard New Kind=Net Tie (In BOM)
+Change Component Kind : Designator=JT1 Old Kind=Standard New Kind=Net Tie (In BOM)

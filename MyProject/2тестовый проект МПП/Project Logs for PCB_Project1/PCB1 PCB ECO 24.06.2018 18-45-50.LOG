@@ -1,0 +1,25 @@
+Added Pin To Net: NetName=BA1 Pin=DD2-A4
+Added Pin To Net: NetName=BA0 Pin=DD2-A5
+Added Pin To Net: NetName=WE Pin=DD2-A6
+Added Pin To Net: NetName=CAS Pin=DD2-A7
+Added Pin To Net: NetName=RAS Pin=DD2-A8
+Added Pin To Net: NetName=CS Pin=DD2-A9
+Added Pin To Net: NetName=CKE Pin=DD2-A10
+Added Pin To Net: NetName=CLK Pin=DD2-B1
+Added Pin To Net: NetName=+1V8 Pin=DD2-B2
+Added Pin To Net: NetName=GND Pin=DD2-C2
+Added Pin To Net: NetName=+1V8 Pin=DD2-D2
+Added Pin To Net: NetName=+1V8 Pin=DD2-D5
+Added Pin To Net: NetName=GND Pin=DD2-E4
+Added Pin To Net: NetName=GND Pin=DD2-E5
+Added Pin To Net: NetName=+1V8 Pin=DD2-E6
+Added Pin To Net: NetName=+1V8 Pin=DD2-E7
+Added Pin To Net: NetName=+1V8 Pin=DD2-F4
+Added Pin To Net: NetName=+1V8 Pin=DD2-F5
+Added Pin To Net: NetName=+1V8 Pin=DD2-F7
+Added Pin To Net: NetName=+1V8 Pin=DD2-F8
+Added Pin To Net: NetName=GND Pin=DD2-G1
+Added Pin To Net: NetName=+1V8 Pin=DD2-H1
+Added Pin To Net: NetName=GND Pin=DD2-J1
+Added Pin To Net: NetName=+1V8 Pin=DD2-K1
+Added Room: Name=Sheet1

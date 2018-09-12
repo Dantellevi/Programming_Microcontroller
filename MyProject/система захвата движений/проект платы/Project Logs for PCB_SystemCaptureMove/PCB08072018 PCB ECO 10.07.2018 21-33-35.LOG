@@ -1,0 +1,43 @@
+Change Component Comment : Designator=SB1 Old Comment=* New Comment=IT-1184
+Change component parameters: Designator = "C7"; Footprint = "Capasitor Tantal TypeA MIN"; UniqueID = "\XIWJGVOB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "China"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "Type A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "TECAP4.7/16VA10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "16V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ShoppingPlace"; Value = "https://www.ru-chipdip.by/product0/850917081"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Bt1"; Footprint = "X5HW"; UniqueID = "\XQYYUTAN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "china"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "smd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "2025"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity"; Value = "https://ru.aliexpress.com/item/3-7-1200-Lipo/32852574199.html?spm=a2g0v.search0604.3.181.2111fc08nULavV&ws_ab_test=searchweb0_0%2Csearchweb201602_3_10152_10151_10065_10344_10068_10342_10343_10340_10341_10696_10084_5722520_10083_5711520_10618_10307_10059_5722620_5722920_306_5722720_5722820_100031_5711420_10103_10624_10623_10622_10621_10620_10125%2Csearchweb201603_31%2CppcSwitch_5&algo_expid=a7204690-5c98-48fe-b8bb-b8922ec76835-26&algo_pvid=a7204690-5c98-48fe-b8bb-b8922ec76835&transAbTest=ae803_2&priceBeautifyAB=0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ShoppingPlace"; Value = "https://ru.aliexpress.com/item/1Pcs-3-7V-800mAh-Battery-for-Drone-For-x5c-x5sw-x5-L15-RC-Quadcopter-Pro-Accessories/32853787962.html?spm=a2g0v.search0604.3.56.7e86fc08nuVnEH&ws_ab_test=searchweb0_0,searchweb201602_3_10846_10152_10065_10151_10344_10068_10342_10343_10340_10059_10341_10696_100031_10084_10083_10103_524_10618_10624_10307_10623_10622_10621_10620,searchweb201603_2,ppcSwitch_5&algo_expid=3f134381-0cd0-46b3-8018-4341e1aaa5ba-8&algo_pvid=3f134381-0cd0-46b3-8018-4341e1aaa5ba&transAbTest=ae803_2&priceBeautifyAB=0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3,7 Â 1200 ìÀ÷"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SB1"; Footprint = "IT-1184"; UniqueID = "\SFNBJAOI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "China"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "IT-1184"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "IT-1184"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ShoppingPlace"; Value = "https://www.chipdip.ru/product/it-1184-smd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "BG1"; Footprint = "LGA-16"; UniqueID = "\TCHGOUMB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Documentation"; Value = "https://www.st.com/resource/en/datasheet/lsm6ds0.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacture"; Value = "STMMicroElectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "LGA-16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LSM6DS0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "4,5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ShoppingPlace"; Value = "https://ru.aliexpress.com/store/product/Free-shipping-10PCS-LSM6DS0TR-LGA-16-LSM6DS0-new-chip-IC-best-quality/1749123_32483761173.html?aff_platform=link-c-tool&cpt=1531246783362&sk=ZjmAemm&aff_trace_key=8a7dd90f83b244d7b563d2b9fb293d25-1531246783362-08030-ZjmAemm&terminal_id=636778b2a25b45858895bbc6c5ce3b1a"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "16g"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=AGND New Net Name=GND
+Change Net Name : Old Net Name=NetDD1_5 New Net Name=GG_Aln
+Added Member To Class: ClassName=circuitMain Member=Component DD2 STM32F401RE
+Added Member To Class: ClassName=circuitMain Member=Component R12 4.7k
+Added Member To Class: ClassName=circuitMain Member=Component R13 4.7k

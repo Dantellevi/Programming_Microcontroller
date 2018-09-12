@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 8:37:54 On 05.06.2018
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Schematic Document [Sheme_PowerOutPut.SchDoc]
+   Generated File[Ведомость.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:38:16 On 05.06.2018

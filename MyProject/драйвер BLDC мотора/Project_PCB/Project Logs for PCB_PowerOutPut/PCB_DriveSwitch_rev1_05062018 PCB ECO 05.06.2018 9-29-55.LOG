@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=U Pin=C5-2
+Removed Pin From Net: NetName=U Pin=C6-2
+Removed Pin From Net: NetName=U Pin=DA2-6
+Removed Pin From Net: NetName=U Pin=DA3-6
+Removed Pin From Net: NetName=U Pin=VT3-3
+Removed Pin From Net: NetName=U Pin=VT4-2
+Removed Pin From Net: NetName=U Pin=VT5-3
+Removed Pin From Net: NetName=U Pin=VT6-2
+Added Pin To Net: NetName=V Pin=C5-2
+Added Pin To Net: NetName=W Pin=C6-2
+Added Pin To Net: NetName=V Pin=DA2-6
+Added Pin To Net: NetName=W Pin=DA3-6
+Added Pin To Net: NetName=V Pin=VT3-3
+Added Pin To Net: NetName=V Pin=VT4-2
+Added Pin To Net: NetName=W Pin=VT5-3
+Added Pin To Net: NetName=W Pin=VT6-2
+Added Member To Class: ClassName=OUTPUTSignalPhase Member=Wire V
+Added Member To Class: ClassName=OUTPUTSignalPhase Member=Wire W
