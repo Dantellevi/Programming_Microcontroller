@@ -11,13 +11,13 @@ project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_
 project_clock_software\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 project_clock_software\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
 project_clock_software\i2c.o: ../Drivers/CMSIS/Include/core_cm3.h
-project_clock_software\i2c.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+project_clock_software\i2c.o: D:\data\ARM\ARMCC\Bin\..\include\stdint.h
 project_clock_software\i2c.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 project_clock_software\i2c.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 project_clock_software\i2c.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 project_clock_software\i2c.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
-project_clock_software\i2c.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+project_clock_software\i2c.o: D:\data\ARM\ARMCC\Bin\..\include\stdio.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
@@ -30,3 +30,4 @@ project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+project_clock_software\i2c.o: ../Inc/LEDLib.h

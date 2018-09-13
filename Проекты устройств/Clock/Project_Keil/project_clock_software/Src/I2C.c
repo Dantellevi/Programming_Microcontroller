@@ -13,7 +13,7 @@ void I2C_WriteBuffer(uint8_t ADDR,uint8_t sizebuf)
 		 if (HAL_I2C_GetError(&hi2c1) != HAL_I2C_ERROR_AF)
 
                         {
-                                sprintf(str, "Buffer error");
+                                sprintf((char*)str, "Buffer error");
                                 //LCD_SetPos(8, 0);
                                 //LCD_String(str);
 
@@ -30,7 +30,7 @@ void I2C_ReadBuffer(uint8_t ADDR,uint8_t sizebuf)
 		 if (HAL_I2C_GetError(&hi2c1) != HAL_I2C_ERROR_AF)
 
                         {
-                                sprintf(str, "Buffer error");
+                                sprintf((char*)str, "Buffer error");
                                 //LCD_SetPos(8, 0);
                                 //LCD_String(str);
 

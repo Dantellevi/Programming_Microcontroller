@@ -54,6 +54,7 @@ UART_HandleTypeDef huart3;
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
 uint8_t aTxBuffer[8];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -105,7 +106,9 @@ int main(void)
   MX_SPI1_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-
+	Init_7219();
+	Clear_MAX7219();
+	Number_MAX7219(87654321);
   /* USER CODE END 2 */
 
   /* Infinite loop */

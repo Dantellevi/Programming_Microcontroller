@@ -46,6 +46,8 @@
 /* USER CODE BEGIN Includes */
 #include "I2C.h"
 #include "DS3231.h"
+#include "LEDLib.h"
+
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/
