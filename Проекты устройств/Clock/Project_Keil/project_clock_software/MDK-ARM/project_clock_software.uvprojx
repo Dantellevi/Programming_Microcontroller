@@ -507,6 +507,11 @@
               <FileType>1</FileType>
               <FilePath>..\Src\LEDLib.c</FilePath>
             </File>
+            <File>
+              <FileName>ButtonMenu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\ButtonMenu.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

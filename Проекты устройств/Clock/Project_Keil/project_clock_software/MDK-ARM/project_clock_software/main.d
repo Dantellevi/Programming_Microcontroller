@@ -30,3 +30,4 @@ project_clock_software\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal
 project_clock_software\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 project_clock_software\main.o: ../Inc/DS3231.h
 project_clock_software\main.o: ../Inc/LEDLib.h
+project_clock_software\main.o: ../Inc/ButtonMenu.h

@@ -31,3 +31,4 @@ project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 project_clock_software\i2c.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 project_clock_software\i2c.o: ../Inc/LEDLib.h
+project_clock_software\i2c.o: ../Inc/ButtonMenu.h
