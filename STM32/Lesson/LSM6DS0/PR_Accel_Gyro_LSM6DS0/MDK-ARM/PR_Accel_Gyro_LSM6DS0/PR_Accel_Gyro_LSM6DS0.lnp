@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"pr_accel_gyro_lsm6ds0\startup_stm32f401xe.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_tim.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_rcc_ex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_cortex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_pwr.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_flash_ramfunc.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_flash.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_tim_ex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_i2c_ex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_dma.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_dma_ex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_uart.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_flash_ex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_i2c.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_rcc.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_gpio.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_pwr_ex.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_it.o"
+"pr_accel_gyro_lsm6ds0\stm32f4xx_hal_msp.o"
+"pr_accel_gyro_lsm6ds0\main.o"
+"pr_accel_gyro_lsm6ds0\lsm6ds0.o"
+"pr_accel_gyro_lsm6ds0\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "PR_Accel_Gyro_LSM6DS0\PR_Accel_Gyro_LSM6DS0.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PR_Accel_Gyro_LSM6DS0.map" -o PR_Accel_Gyro_LSM6DS0\PR_Accel_Gyro_LSM6DS0.axf

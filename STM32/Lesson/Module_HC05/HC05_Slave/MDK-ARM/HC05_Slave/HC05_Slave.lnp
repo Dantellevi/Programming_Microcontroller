@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"hc05_slave\startup_stm32f103xb.o"
+"hc05_slave\stm32f1xx_hal_tim.o"
+"hc05_slave\stm32f1xx_hal_pwr.o"
+"hc05_slave\stm32f1xx_hal_dma.o"
+"hc05_slave\stm32f1xx_hal.o"
+"hc05_slave\stm32f1xx_hal_flash_ex.o"
+"hc05_slave\stm32f1xx_hal_uart.o"
+"hc05_slave\stm32f1xx_hal_gpio_ex.o"
+"hc05_slave\stm32f1xx_hal_rcc_ex.o"
+"hc05_slave\stm32f1xx_hal_gpio.o"
+"hc05_slave\stm32f1xx_hal_rcc.o"
+"hc05_slave\stm32f1xx_hal_cortex.o"
+"hc05_slave\stm32f1xx_hal_flash.o"
+"hc05_slave\stm32f1xx_hal_tim_ex.o"
+"hc05_slave\system_stm32f1xx.o"
+"hc05_slave\stm32f1xx_it.o"
+"hc05_slave\main.o"
+"hc05_slave\stm32f1xx_hal_msp.o"
+--library_type=microlib --strict --scatter "HC05_Slave\HC05_Slave.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HC05_Slave.map" -o HC05_Slave\HC05_Slave.axf
