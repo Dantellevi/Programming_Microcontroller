@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"projectnrf_1\startup_stm32f103xb.o"
+"projectnrf_1\main.o"
+"projectnrf_1\stm32f1xx_it.o"
+"projectnrf_1\stm32f1xx_hal_msp.o"
+"projectnrf_1\nrf24.o"
+"projectnrf_1\stm32f1xx_hal_gpio_ex.o"
+"projectnrf_1\stm32f1xx_hal_spi.o"
+"projectnrf_1\stm32f1xx_hal_spi_ex.o"
+"projectnrf_1\stm32f1xx_hal_tim.o"
+"projectnrf_1\stm32f1xx_hal_tim_ex.o"
+"projectnrf_1\stm32f1xx_hal_uart.o"
+"projectnrf_1\stm32f1xx_hal.o"
+"projectnrf_1\stm32f1xx_hal_rcc.o"
+"projectnrf_1\stm32f1xx_hal_rcc_ex.o"
+"projectnrf_1\stm32f1xx_hal_gpio.o"
+"projectnrf_1\stm32f1xx_hal_dma.o"
+"projectnrf_1\stm32f1xx_hal_cortex.o"
+"projectnrf_1\stm32f1xx_hal_pwr.o"
+"projectnrf_1\stm32f1xx_hal_flash.o"
+"projectnrf_1\stm32f1xx_hal_flash_ex.o"
+"projectnrf_1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ProjectNRF_1\ProjectNRF_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ProjectNRF_1.map" -o ProjectNRF_1\ProjectNRF_1.axf

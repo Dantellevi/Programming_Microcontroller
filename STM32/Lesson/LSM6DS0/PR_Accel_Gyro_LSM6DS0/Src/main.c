@@ -106,6 +106,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 	//HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
     Accel_Ini();
+		Gyro_Ini();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -116,8 +117,9 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-	GETValueAccel_Read();
-	  
+		
+	 GETValueAccel_Read(); 
+		ReadGero();
   }
   /* USER CODE END 3 */
 
@@ -206,7 +208,7 @@ static void MX_USART2_UART_Init(void)
 {
 
   huart2.Instance = USART2;
-  huart2.Init.BaudRate = 512000;
+  huart2.Init.BaudRate = 9600;
   huart2.Init.WordLength = UART_WORDLENGTH_8B;
   huart2.Init.StopBits = UART_STOPBITS_1;
   huart2.Init.Parity = UART_PARITY_NONE;
