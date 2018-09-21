@@ -39,10 +39,10 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f1xx_hal.h"
-#include <string.h>
 
 /* USER CODE BEGIN Includes */
-
+#include "NRF24.h"
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -59,8 +59,8 @@ uint8_t buf1[20]={0};
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_USART1_UART_Init(void);
 static void MX_SPI1_Init(void);
+static void MX_USART1_UART_Init(void);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
@@ -79,7 +79,7 @@ static void MX_SPI1_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	uint8_t dt_reg=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -100,21 +100,41 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART1_UART_Init();
   MX_SPI1_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-	NRF24_Init();
+	NRF24_ini();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-
+		HAL_Delay(1000);
+		dt_reg = NRF24_ReadReg(CONFIG);
+		sprintf(str1,"CONFIG: 0x%02X\r\n",dt_reg);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+		dt_reg = NRF24_ReadReg(EN_AA);
+		sprintf(str1,"EN_AA: 0x%02X\r\n",dt_reg);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+		dt_reg = NRF24_ReadReg(EN_RXADDR);
+		sprintf(str1,"EN_RXADDR: 0x%02X\r\n",dt_reg);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+		dt_reg = NRF24_ReadReg(STATUS);
+		sprintf(str1,"STATUS: 0x%02X\r\n",dt_reg);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+		dt_reg = NRF24_ReadReg(RF_SETUP);
+		sprintf(str1,"RF_SETUP: 0x%02X\r\n",dt_reg);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+		NRF24_Read_Buf(TX_ADDR,buf1,3);
+		sprintf(str1,"TX_ADDR: 0x%02X, 0x%02X, 0x%02X\r\n",buf1[0],buf1[1],buf1[2]);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+		NRF24_Read_Buf(RX_ADDR_P1,buf1,3);
+		sprintf(str1,"RX_ADDR: 0x%02X, 0x%02X, 0x%02X\r\n",buf1[0],buf1[1],buf1[2]);
+		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
   }
   /* USER CODE END 3 */
 
@@ -234,7 +254,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|GPIO_PIN_4, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : PC13 */
   GPIO_InitStruct.Pin = GPIO_PIN_13;
@@ -243,8 +263,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PA2 PA3 PA4 */
-  GPIO_InitStruct.Pin = GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4;
+  /*Configure GPIO pin : PA2 */
+  GPIO_InitStruct.Pin = GPIO_PIN_2;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PA3 PA4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -266,7 +292,7 @@ void _Error_Handler(char *file, int line)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-  while(1)
+  while(1) 
   {
   }
   /* USER CODE END Error_Handler_Debug */
@@ -284,7 +310,7 @@ void assert_failed(uint8_t* file, uint32_t line)
 { 
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,
-     tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+    ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */

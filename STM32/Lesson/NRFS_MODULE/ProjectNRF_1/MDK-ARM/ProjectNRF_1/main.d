@@ -25,4 +25,5 @@ projectnrf_1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.
 projectnrf_1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 projectnrf_1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 projectnrf_1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+projectnrf_1\main.o: ../Inc/NRF24.h
 projectnrf_1\main.o: D:\data\ARM\ARMCC\Bin\..\include\string.h

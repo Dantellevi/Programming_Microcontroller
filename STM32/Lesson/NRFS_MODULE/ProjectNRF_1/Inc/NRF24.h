@@ -1,30 +1,26 @@
-#ifndef __MAIN_H__
-#define __MAIN_H__
-
+#ifndef NRF24_H_
+#define NRF24_H_
 //------------------------------------------------
-
 #include "stm32f1xx_hal.h"
 #include <string.h>
-
-#define CS_GPIO_PORT GPIOA	//chip select
+//------------------------------------------------
+#define CS_GPIO_PORT GPIOA
 #define CS_PIN GPIO_PIN_4
 #define CS_ON HAL_GPIO_WritePin(CS_GPIO_PORT, CS_PIN, GPIO_PIN_RESET)
 #define CS_OFF HAL_GPIO_WritePin(CS_GPIO_PORT, CS_PIN, GPIO_PIN_SET)
 #define CE_GPIO_PORT GPIOA
-#define CE_PIN GPIO_PIN_3	//CE
+#define CE_PIN GPIO_PIN_3
 #define CE_RESET HAL_GPIO_WritePin(CE_GPIO_PORT, CE_PIN, GPIO_PIN_RESET)
 #define CE_SET HAL_GPIO_WritePin(CE_GPIO_PORT, CE_PIN, GPIO_PIN_SET)
 #define IRQ_GPIO_PORT GPIOA
-#define IRQ_PIN GPIO_PIN_2	//IRQ
+#define IRQ_PIN GPIO_PIN_2
 #define IRQ HAL_GPIO_ReadPin(IRQ_GPIO_PORT, IRQ_PIN)
 #define LED_GPIO_PORT GPIOC
-#define LED_PIN GPIO_PIN_13		//LED
+#define LED_PIN GPIO_PIN_13
 #define LED_ON HAL_GPIO_WritePin(LED_GPIO_PORT, LED_PIN, GPIO_PIN_RESET)
 #define LED_OFF HAL_GPIO_WritePin(LED_GPIO_PORT, LED_PIN, GPIO_PIN_SET)
 #define LED_TGL HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN)
-
 //------------------------------------------------
-
 #define ACTIVATE 0x50 //
 #define RD_RX_PLOAD 0x61 // Define RX payload register address
 #define WR_TX_PLOAD 0xA0 // Define TX payload register address
@@ -54,12 +50,10 @@
 #define TX_DS 0x20 //Data Sent TX FIFO interrupt
 #define MAX_RT 0x10 //Maximum number of TX retransmits interrupt
 //------------------------------------------------
-#define W_REGISTER 0x20 //запись в регистр
-
-/*********************Запись данных в регистры*************/
-void NRF24_WriteReg(uint8_t addr, uint8_t dt);
-/*********************Чтение данных из регистров*************/
+#define W_REGISTER 0x20 //������ � �������
+//------------------------------------------------
+void NRF24_ini(void);
 uint8_t NRF24_ReadReg(uint8_t addr);
-#endif /* __MAIN_H__ */
-
-
+void NRF24_Read_Buf(uint8_t addr,uint8_t *pBuf,uint8_t bytes);
+//------------------------------------------------
+#endif /* NRF24_H_ */
