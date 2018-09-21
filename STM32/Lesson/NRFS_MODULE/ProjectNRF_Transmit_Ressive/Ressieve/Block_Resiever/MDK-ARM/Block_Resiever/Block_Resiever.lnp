@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"block_resiever\startup_stm32f407xx.o"
+"block_resiever\main.o"
+"block_resiever\stm32f4xx_it.o"
+"block_resiever\stm32f4xx_hal_msp.o"
+"block_resiever\nrf24.o"
+"block_resiever\stm32f4xx_hal_spi.o"
+"block_resiever\stm32f4xx_hal_tim.o"
+"block_resiever\stm32f4xx_hal_tim_ex.o"
+"block_resiever\stm32f4xx_hal_uart.o"
+"block_resiever\stm32f4xx_hal_rcc.o"
+"block_resiever\stm32f4xx_hal_rcc_ex.o"
+"block_resiever\stm32f4xx_hal_flash.o"
+"block_resiever\stm32f4xx_hal_flash_ex.o"
+"block_resiever\stm32f4xx_hal_flash_ramfunc.o"
+"block_resiever\stm32f4xx_hal_gpio.o"
+"block_resiever\stm32f4xx_hal_dma_ex.o"
+"block_resiever\stm32f4xx_hal_dma.o"
+"block_resiever\stm32f4xx_hal_pwr.o"
+"block_resiever\stm32f4xx_hal_pwr_ex.o"
+"block_resiever\stm32f4xx_hal_cortex.o"
+"block_resiever\stm32f4xx_hal.o"
+"block_resiever\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Block_Resiever\Block_Resiever.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Block_Resiever.map" -o Block_Resiever\Block_Resiever.axf
