@@ -50,8 +50,16 @@
 #include "main.h"
 #include "stm32f7xx_hal.h"
 #include "fatfs.h"
-
+#include "stdio.h"
+#include "stdlib.h"
 /* USER CODE BEGIN Includes */
+#define LCD_FRAME_BUFFER SDRAM_DEVICE_ADDR
+FATFS SDFatFs; /* File system object for SD card logical drive */
+FIL MyFile; /* File object */
+extern char SD_Path[4]; /* SD logical drive path */
+uint8_t sect[4096];
+uint32_t bytesread = 0;
+uint8_t* bmp1;
 
 /* USER CODE END Includes */
 
@@ -85,7 +93,54 @@ static void MX_SDMMC1_SD_Init(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
-
+uint32_t OpenBMP(uint8_t *ptr, const char* fname)
+{
+  uint32_t ind = 0, sz = 0, i1 = 0, ind1 = 0;
+  static uint32_t bmp_addr;
+  if(f_open(&MyFile, fname, FA_READ) != FR_OK)
+  {
+    TFT_FillScreen(0xFF00FF00); //в случае неудачи окрасим экран в красный цвет
+  }
+  else
+  {
+    if (f_read (&MyFile, sect, 30, (UINT *)bytesread) != FR_OK)
+    {
+      Error_Handler();
+    }
+    else
+    {
+      bmp_addr = (uint32_t)sect;
+      sz = *(uint16_t *) (bmp_addr + 2);
+      sz |= (*(uint16_t *) (bmp_addr + 4)) << 16;
+      /* Get bitmap data address offset */
+      ind = *(uint16_t *) (bmp_addr + 10);
+      ind |= (*(uint16_t *) (bmp_addr + 12)) << 16;
+      f_close (&MyFile);
+      f_open (&MyFile, fname, FA_READ);
+      ind=0;
+      do
+      {
+        if (sz < 4096)
+        {
+          i1 = sz;
+        }
+        else
+        {
+          i1 = 4096;
+        }
+        sz -= i1;
+        f_lseek(&MyFile,ind1);
+        f_read (&MyFile, sect, i1, (UINT *)&bytesread);
+        memcpy((void*)(bmp1+ind1), (void*)sect, i1);
+        ind1+=i1;
+      }
+      while (sz > 0);
+      f_close (&MyFile);
+    }
+    ind1=0;
+  }
+  return 0;
+}
 /* USER CODE END 0 */
 
 /**
@@ -96,7 +151,8 @@ static void MX_SDMMC1_SD_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	uint16_t i,j;
+	bmp1 = (uint8_t *)0xC00FF000;
   /* USER CODE END 1 */
 
   /* MPU Configuration----------------------------------------------------------*/
@@ -132,7 +188,19 @@ int main(void)
   MX_SDMMC1_SD_Init();
   MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
-
+	HAL_LTDC_SetAddress(&hltdc,LCD_FRAME_BUFFER,0);
+	TFT_FillScreen(0xFF0000FF);
+	if(f_mount(&SDFatFs, (TCHAR const*)SD_Path, 0) != FR_OK)
+	{
+		TFT_FillScreen(0xFFFF0000); //в случае неудачи окрасим экран в красный цвет
+		Error_Handler();
+	}
+	else
+		{
+			
+		}
+		
+	
   /* USER CODE END 2 */
 
   /* Infinite loop */

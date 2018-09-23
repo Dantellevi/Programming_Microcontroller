@@ -54,7 +54,8 @@
 /* Includes ------------------------------------------------------------------*/
 
 /* USER CODE BEGIN Includes */
-
+#include "LTDC.h"
+#include "MT48LC4M32B2.h"
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/
