@@ -159,7 +159,7 @@ void NRF24L01_Receive(void)
 {
   uint8_t status=0x01;
   uint16_t dt=0;
-	while((GPIO_PinState)IRQ == GPIO_PIN_SET) {}
+	//while((GPIO_PinState)IRQ == GPIO_PIN_SET) {}
 	status = NRF24_ReadReg(STATUS);
 	sprintf(str1,"STATUS: 0x%02X\r\n",status);
 	HAL_UART_Transmit(&huart2,(uint8_t*)str1,strlen(str1),0x1000);
@@ -179,6 +179,17 @@ void NRF24L01_Receive(void)
 		HAL_UART_Transmit(&huart2,(uint8_t*)strU,strlen(strU),0x1000);
     NRF24_WriteReg(STATUS, 0x40);
   }
+	
+	NRF24_Read_Buf(RD_RX_PLOAD,RX_BUF,TX_PLOAD_WIDTH);
+    dt = *(int16_t*)RX_BUF;
+//    Clear_7219();
+//    Number_7219(dt);
+//    dt = *(int16_t*)(RX_BUF+2);
+//    NumberL_7219(dt);
+		char strU[200];
+		sprintf(strU,"NRF2401Ressieve=%d\n\r",dt);
+		HAL_UART_Transmit(&huart2,(uint8_t*)strU,strlen(strU),0x1000);
+    NRF24_WriteReg(STATUS, 0x40);
 	
 }
 

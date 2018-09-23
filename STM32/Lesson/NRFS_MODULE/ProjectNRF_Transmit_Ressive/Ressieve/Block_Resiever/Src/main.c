@@ -116,7 +116,7 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-
+	NRF24L01_Receive();
   }
   /* USER CODE END 3 */
 
