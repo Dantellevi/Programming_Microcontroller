@@ -21,6 +21,8 @@
 "project_clock_software\stm32f1xx_it.o"
 "project_clock_software\ds3231.o"
 "project_clock_software\i2c.o"
+"project_clock_software\ledlib.o"
+"project_clock_software\buttonmenu.o"
 "project_clock_software\system_stm32f1xx.o"
 --library_type=microlib --strict --scatter "project_clock_software\project_clock_software.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
