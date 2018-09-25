@@ -80,7 +80,7 @@ static void MX_USART3_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	 uint8_t sec=0,min=0,hour=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -105,14 +105,28 @@ int main(void)
   MX_SPI1_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-
+	Init_7219();
+	Clear_MAX7219();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+		 aTxBuffer[0]=0;
+                I2C_WriteBuffer((uint16_t)0xD0,1);
+                while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY)
+                {
 
+                }
+								 I2C_ReadBuffer((uint16_t)0xD0,7);
+								hour=aTxBuffer[2];
+                hour = RTC_ConverFromDec(hour); //Преобразуем в десятичный формат
+								min=aTxBuffer[1];
+                min = RTC_ConverFromDec(min); //Преобразуем в десятичный формат
+								sec=aTxBuffer[0];
+                sec = RTC_ConverFromDec(sec); //Преобразуем в десятичный формат
+								Print_ValClock(hour,min,sec);
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
@@ -253,10 +267,13 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, CS_LED_Pin|GPIO_PIN_14|GPIO_PIN_15, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, CS_LED_Pin|GPIO_PIN_15, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : CS_LED_Pin PA14 PA15 */
-  GPIO_InitStruct.Pin = CS_LED_Pin|GPIO_PIN_14|GPIO_PIN_15;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : CS_LED_Pin PA15 */
+  GPIO_InitStruct.Pin = CS_LED_Pin|GPIO_PIN_15;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -272,6 +289,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(Left_B_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PB3 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
