@@ -1,7 +1,8 @@
+
 /**
   ******************************************************************************
-  * File Name          : main.c
-  * Description        : Main program body
+  * @file           : main.c
+  * @brief          : Main program body
   ******************************************************************************
   ** This notice applies to any and all portions of this file
   * that are not between comment pairs USER CODE BEGIN and
@@ -40,8 +41,7 @@
 #include "stm32f1xx_hal.h"
 
 /* USER CODE BEGIN Includes */
-#include "NRF24.h"
-#include <string.h>
+
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -51,8 +51,7 @@ UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-char str1[20]={0};
-uint8_t buf1[20]={0};
+char str1[50];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -70,13 +69,15 @@ static void MX_USART1_UART_Init(void);
 
 /* USER CODE END 0 */
 
+/**
+  * @brief  The application entry point.
+  *
+  * @retval None
+  */
 int main(void)
 {
-
   /* USER CODE BEGIN 1 */
-	uint8_t dt_reg=0;
-	uint8_t retr_cnt, dt;
-	uint16_t i=1,retr_cnt_full;
+
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -99,57 +100,28 @@ int main(void)
   MX_GPIO_Init();
   MX_SPI1_Init();
   MX_USART1_UART_Init();
-
   /* USER CODE BEGIN 2 */
-	NRF24_ini();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-		HAL_Delay(1000);
-		memcpy(buf1,(uint8_t*)&i,2);
-		if(retr_cnt_full>999) retr_cnt_full=999;
-		memcpy(buf1+2,(uint8_t*)&retr_cnt_full,2);
-		dt = NRF24L01_Send(buf1);
-		retr_cnt = dt & 0xF;
-		i++;
-		retr_cnt_full += retr_cnt;
-		if(i>=999) i=1;
-//		
-//		dt_reg = NRF24_ReadReg(CONFIG);
-//		sprintf(str1,"CONFIG: 0x%02X\r\n",dt_reg);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-//		dt_reg = NRF24_ReadReg(EN_AA);
-//		sprintf(str1,"EN_AA: 0x%02X\r\n",dt_reg);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-//		dt_reg = NRF24_ReadReg(EN_RXADDR);
-//		sprintf(str1,"EN_RXADDR: 0x%02X\r\n",dt_reg);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-//		dt_reg = NRF24_ReadReg(STATUS);
-//		sprintf(str1,"STATUS: 0x%02X\r\n",dt_reg);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-//		dt_reg = NRF24_ReadReg(RF_SETUP);
-//		sprintf(str1,"RF_SETUP: 0x%02X\r\n",dt_reg);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-//		NRF24_Read_Buf(TX_ADDR,buf1,3);
-//		sprintf(str1,"TX_ADDR: 0x%02X, 0x%02X, 0x%02X\r\n",buf1[0],buf1[1],buf1[2]);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-//		NRF24_Read_Buf(RX_ADDR_P0,buf1,3);
-//		sprintf(str1,"RX_ADDR: 0x%02X, 0x%02X, 0x%02X\r\n",buf1[0],buf1[1],buf1[2]);
-//		HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
-		
+
   }
   /* USER CODE END 3 */
 
 }
 
-/** System Clock Configuration
-*/
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
 void SystemClock_Config(void)
 {
 
@@ -265,6 +237,7 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin : PC13 */
   GPIO_InitStruct.Pin = GPIO_PIN_13;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
@@ -277,6 +250,7 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pins : PA3 PA4 */
   GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
@@ -288,45 +262,43 @@ static void MX_GPIO_Init(void)
 
 /**
   * @brief  This function is executed in case of error occurrence.
-  * @param  None
+  * @param  file: The file name as string.
+  * @param  line: The line in file as a number.
   * @retval None
   */
-void _Error_Handler(char * file, int line)
+void _Error_Handler(char *file, int line)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-  while(1) 
+  while(1)
   {
   }
-  /* USER CODE END Error_Handler_Debug */ 
+  /* USER CODE END Error_Handler_Debug */
 }
 
-#ifdef USE_FULL_ASSERT
-
+#ifdef  USE_FULL_ASSERT
 /**
-   * @brief Reports the name of the source file and the source line number
-   * where the assert_param error has occurred.
-   * @param file: pointer to the source file name
-   * @param line: assert_param error line source number
-   * @retval None
-   */
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
 void assert_failed(uint8_t* file, uint32_t line)
-{
+{ 
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,
-    ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+     tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
-
 }
-
-#endif
-
-/**
-  * @}
-  */ 
+#endif /* USE_FULL_ASSERT */
 
 /**
   * @}
-*/ 
+  */
+
+/**
+  * @}
+  */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
