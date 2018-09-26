@@ -51,7 +51,8 @@ UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-char str1[50];
+char str1[20]={0};
+uint8_t buf1[20]={0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -77,7 +78,7 @@ static void MX_USART1_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	uint8_t dt_reg=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -103,7 +104,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
-
+	NRF24_Init();
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -112,7 +113,49 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
+	HAL_Delay(1000);
 
+  dt_reg = NRF24_ReadReg(CONFIG);
+
+  sprintf(str1,"CONFIG: 0x%02X\r\n",dt_reg);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+
+  dt_reg = NRF24_ReadReg(EN_AA);
+
+  sprintf(str1,"EN_AA: 0x%02X\r\n",dt_reg);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+
+  dt_reg = NRF24_ReadReg(EN_RXADDR);
+
+  sprintf(str1,"EN_RXADDR: 0x%02X\r\n",dt_reg);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+
+  dt_reg = NRF24_ReadReg(STATUS);
+
+  sprintf(str1,"STATUS: 0x%02X\r\n",dt_reg);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+
+  dt_reg = NRF24_ReadReg(RF_SETUP);
+
+  sprintf(str1,"RF_SETUP: 0x%02X\r\n",dt_reg);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+
+  NRF24_Read_Buf(TX_ADDR,buf1,3);
+
+  sprintf(str1,"TX_ADDR: 0x%02X, 0x%02X, 0x%02X\r\n",buf1[0],buf1[1],buf1[2]);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
+
+  NRF24_Read_Buf(RX_ADDR_P1,buf1,3);
+
+  sprintf(str1,"RX_ADDR: 0x%02X, 0x%02X, 0x%02X\r\n",buf1[0],buf1[1],buf1[2]);
+
+  HAL_UART_Transmit(&huart1,(uint8_t*)str1,strlen(str1),0x1000);
   }
   /* USER CODE END 3 */
 

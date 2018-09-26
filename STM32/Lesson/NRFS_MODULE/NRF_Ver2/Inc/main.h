@@ -44,7 +44,7 @@
 /* Includes ------------------------------------------------------------------*/
 
 /* USER CODE BEGIN Includes */
-
+#include "NRF.h"
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/
