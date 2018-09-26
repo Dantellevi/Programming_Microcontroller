@@ -45,6 +45,7 @@
 #define FIFO_STATUS 0x17 //'FIFO Status Register' register address
 #define DYNPD 0x1C
 #define FEATURE 0x1D
+#define OBSERVE_TX	0x08
 //------------------------------------------------
 #define PRIM_RX 0x00 //RX/TX control (1: PRX, 0: PTX)
 #define PWR_UP 0x01 //1: POWER UP, 0:POWER DOWN
