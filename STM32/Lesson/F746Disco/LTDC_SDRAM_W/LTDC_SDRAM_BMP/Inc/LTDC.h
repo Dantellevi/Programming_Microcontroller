@@ -8,7 +8,7 @@
 #include "stdio.h"
 #include <stdlib.h>
 #define swap(a,b) {int16_t t=a;a=b;b=t;}
-
+#define convert24to32(x) (x|0xFF000000)
 
 
 /***********************Функция заливки экрана *****************/
@@ -38,6 +38,8 @@ void TFT_FillRectangle(uint16_t x1, uint16_t y1,
 void TFT_DrawLine(uint16_t x1, uint16_t y1,
         uint16_t x2, uint16_t y2, uint32_t color);
 
+/********************Функция отрисовки изображения**********/
+void TFT_DrawBitmap(uint32_t Xpos, uint32_t Ypos, uint8_t *pbmp);
 
 
 

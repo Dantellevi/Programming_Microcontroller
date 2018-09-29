@@ -56,7 +56,7 @@
 #define LCD_FRAME_BUFFER SDRAM_DEVICE_ADDR
 FATFS SDFatFs; /* File system object for SD card logical drive */
 FIL MyFile; /* File object */
-extern char SD_Path[4]; /* SD logical drive path */
+extern char SDPath[4]; /* SD logical drive path */
 uint8_t sect[4096];
 uint32_t bytesread = 0;
 uint8_t* bmp1;
@@ -188,16 +188,19 @@ int main(void)
   MX_SDMMC1_SD_Init();
   MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
+	MT48LC4M32B2_Init();
 	HAL_LTDC_SetAddress(&hltdc,LCD_FRAME_BUFFER,0);
 	TFT_FillScreen(0xFF0000FF);
-	if(f_mount(&SDFatFs, (TCHAR const*)SD_Path, 0) != FR_OK)
+	
+	if(f_mount(&SDFatFs, (TCHAR const*)SDPath, 0) != FR_OK)
 	{
 		TFT_FillScreen(0xFFFF0000); //в случае неудачи окрасим экран в красный цвет
 		Error_Handler();
 	}
 	else
 		{
-			
+			OpenBMP((uint8_t *)bmp1,"image01.bmp");
+			TFT_DrawBitmap(0,0,(uint8_t *)bmp1);
 		}
 		
 	
