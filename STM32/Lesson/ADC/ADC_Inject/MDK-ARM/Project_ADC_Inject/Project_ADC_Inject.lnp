@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"project_adc_inject\startup_stm32f407xx.o"
+"project_adc_inject\stm32f4xx_hal_flash_ex.o"
+"project_adc_inject\stm32f4xx_hal_dma.o"
+"project_adc_inject\stm32f4xx_hal_pwr_ex.o"
+"project_adc_inject\stm32f4xx_hal_adc_ex.o"
+"project_adc_inject\stm32f4xx_hal_gpio.o"
+"project_adc_inject\stm32f4xx_hal_tim.o"
+"project_adc_inject\stm32f4xx_hal_tim_ex.o"
+"project_adc_inject\stm32f4xx_hal_cortex.o"
+"project_adc_inject\stm32f4xx_hal_rcc_ex.o"
+"project_adc_inject\stm32f4xx_hal_rcc.o"
+"project_adc_inject\stm32f4xx_hal_adc.o"
+"project_adc_inject\stm32f4xx_hal_flash_ramfunc.o"
+"project_adc_inject\stm32f4xx_hal_flash.o"
+"project_adc_inject\stm32f4xx_hal_pwr.o"
+"project_adc_inject\stm32f4xx_hal_dma_ex.o"
+"project_adc_inject\stm32f4xx_hal.o"
+"project_adc_inject\stm32f4xx_it.o"
+"project_adc_inject\main.o"
+"project_adc_inject\stm32f4xx_hal_msp.o"
+"project_adc_inject\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Project_ADC_Inject\Project_ADC_Inject.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Project_ADC_Inject.map" -o Project_ADC_Inject\Project_ADC_Inject.axf
