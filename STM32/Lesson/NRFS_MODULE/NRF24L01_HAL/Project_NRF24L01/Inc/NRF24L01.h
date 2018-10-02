@@ -155,8 +155,53 @@ NRF_RESULT nrf_set_tx_power(nrf24l01* dev, NRF_TX_PWR pwr);
 NRF_RESULT nrf_set_ccw(nrf24l01* dev, bool activate);
 /*********************Функция очистки прерываний************/
 NRF_RESULT nrf_clear_interrupts(nrf24l01* dev);
+/*************************Функция установки канала*********/
+NRF_RESULT nrf_set_rf_channel(nrf24l01* dev, uint8_t ch) ;
+/***********************Установка длинны адреса***************************/
+NRF_RESULT nrf_set_address_width(nrf24l01* dev, NRF_ADDR_WIDTH width);
+/*******************Задержка повторной отправки********************/
+NRF_RESULT nrf_set_retransmittion_delay(nrf24l01* dev, uint8_t delay);
+/*********************Функция передачи количества байт в посылке****************/
+NRF_RESULT nrf_set_retransmittion_count(nrf24l01* dev, uint8_t count);
+/*************************Авто ответ эхо***********************/
+NRF_RESULT nrf_enable_auto_ack(nrf24l01* dev, uint8_t pipe);
+NRF_RESULT nrf_read_rx_payload(nrf24l01* dev, uint8_t* data);
+NRF_RESULT nrf_write_tx_payload(nrf24l01* dev, const uint8_t* data);
+NRF_RESULT nrf_write_tx_payload_noack(nrf24l01* dev, const uint8_t* data);
+/*******************Задержка повторной отправки********************/
+NRF_RESULT nrf_set_retransmittion_delay(nrf24l01* dev, uint8_t delay);
+/***********************Установка длинны адреса***************************/
+NRF_RESULT nrf_set_address_width(nrf24l01* dev, NRF_ADDR_WIDTH width) ;
+NRF_RESULT nrf_set_rx_pipes(nrf24l01* dev, uint8_t pipes) ;
+/*************************Авто ответ эхо***********************/
+NRF_RESULT nrf_enable_auto_ack(nrf24l01* dev, uint8_t pipe);
+/*****************Включение проверки*********************/
+NRF_RESULT nrf_enable_crc(nrf24l01* dev, bool activate);
+/************************Установка дилны проверки********************/
+NRF_RESULT nrf_set_crc_width(nrf24l01* dev, NRF_CRC_WIDTH width);
+/********************Вкл. питания****************************/
+NRF_RESULT nrf_power_up(nrf24l01* dev, bool power_up) ;
+/******************** контроль приема передачи*********************/
+NRF_RESULT nrf_rx_tx_control(nrf24l01* dev, NRF_TXRX_STATE rx);
+/***************************Флаг приема************************************/
+NRF_RESULT nrf_enable_rx_data_ready_irq(nrf24l01* dev, bool activate);
 
+/**************************Флаг передачи******************************/
+NRF_RESULT nrf_enable_tx_data_sent_irq(nrf24l01* dev, bool activate) ;
+NRF_RESULT nrf_enable_max_retransmit_irq(nrf24l01* dev, bool activate);
+/*************************Установка адреса для первого устройства*****************/
+NRF_RESULT nrf_set_rx_address_p0(nrf24l01* dev, const uint8_t* address) ;
+/*************************Установка адреса для 2-ого устройства*****************/
+NRF_RESULT nrf_set_rx_address_p1(nrf24l01* dev, const uint8_t* address) ;
+NRF_RESULT nrf_set_tx_address(nrf24l01* dev, const uint8_t* address) ;
+NRF_RESULT nrf_set_rx_payload_width_p0(nrf24l01* dev, uint8_t width) ;
+NRF_RESULT nrf_set_rx_payload_width_p1(nrf24l01* dev, uint8_t width) ;
+NRF_RESULT nrf_send_packet(nrf24l01* dev, const uint8_t* data);
+NRF_RESULT nrf_send_packet_noack(nrf24l01* dev, const uint8_t* data);
+const uint8_t* nrf_receive_packet(nrf24l01* dev);
+NRF_RESULT nrf_push_packet(nrf24l01* dev, const uint8_t* data);
 
+NRF_RESULT nrf_init(nrf24l01* dev, nrf24l01_config* config);
 
 
 

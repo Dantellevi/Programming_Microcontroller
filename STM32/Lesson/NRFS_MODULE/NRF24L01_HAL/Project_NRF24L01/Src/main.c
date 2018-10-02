@@ -48,7 +48,10 @@
 SPI_HandleTypeDef hspi1;
 
 UART_HandleTypeDef huart1;
-
+static const uint8_t rx_address[5]={1, 2, 3, 4, 5};
+static const uint8_t tx_address[5]={1,2,3,4,6};
+uint32_t rx_data;
+nrf24l01 nrf;
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
 
@@ -66,7 +69,34 @@ static void MX_SPI1_Init(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
+void Config_NrF(void)
+{
+				
+				
+				nrf24l01_config config;
+        config.data_rate        = NRF_DATA_RATE_1MBPS;
+        config.tx_power         = NRF_TX_PWR_0dBm;
+        config.crc_width        = NRF_CRC_WIDTH_1B;
+        config.addr_width       = NRF_ADDR_WIDTH_5;
+        config.payload_length   = 4;    // maximum is 32 bytes
+        config.retransmit_count = 15;   // maximum is 15 times
+        config.retransmit_delay = 0x0F; // 4000us, LSB:250us
+        config.rf_channel       = 0;
+        config.rx_address       = rx_address;
+        config.tx_address       = tx_address;
+        config.rx_buffer        = (uint8_t*)&rx_data;
 
+        config.spi         = &hspi1;
+        config.spi_timeout = 10; // milliseconds
+        config.ce_port     = CE_GPIO_Port;
+        config.ce_pin      = CE_Pin;
+        config.irq_port    = IRQ_GPIO_Port;
+        config.irq_pin     = IRQ_Pin;
+				config.csn_pin=CSN_Pin;
+				config.csn_port=CSN_GPIO_Port;
+        nrf_init(&nrf, &config);
+	
+}
 /* USER CODE END 0 */
 
 /**
@@ -101,7 +131,8 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-
+	uint32_t i;
+	Config_NrF();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,7 +141,11 @@ int main(void)
   {
 
   /* USER CODE END WHILE */
-
+	for(i=0;i<65535;i++)
+	{
+		nrf_send_packet(&nrf, (uint8_t*)i);
+		HAL_Delay(500);
+	}
   /* USER CODE BEGIN 3 */
 
   }
