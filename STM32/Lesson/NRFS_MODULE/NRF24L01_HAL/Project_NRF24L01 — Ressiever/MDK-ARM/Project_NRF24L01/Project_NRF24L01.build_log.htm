@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sdadas adada, asdasdsa, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.26.2.0
+Toolchain Path:  D:\data\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\repos\Programming_Microcontroller\STM32\Lesson\NRFS_MODULE\NRF24L01_HAL\Project_NRF24L01 — Ressiever\MDK-ARM\Project_NRF24L01.uvprojx
+Project File Date:  10/03/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\data\ARM\ARMCC\Bin'
+Rebuild target 'Project_NRF24L01'
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_spi_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling NRF24L01.c...
+..\Src\NRF24L01.c(54): warning:  #940-D: missing return statement at end of non-void function "nrf_send_command" 
+  }
+..\Src\NRF24L01.c(60): warning:  #188-D: enumerated type mixed with another type
+  	if (nrf_send_command(dev, NRF_CMD_R_REGISTER | reg, &tx, data, 1) !=
+..\Src\NRF24L01.c(74): warning:  #188-D: enumerated type mixed with another type
+      if (nrf_send_command(dev, NRF_CMD_W_REGISTER | reg, data, &rx, 1) !=
+..\Src\NRF24L01.c(466): warning:  #188-D: enumerated type mixed with another type
+      if (nrf_send_command(dev, (NRF_CMD_W_REGISTER | NRF_RX_ADDR_P0), address, rx,
+..\Src\NRF24L01.c(478): warning:  #188-D: enumerated type mixed with another type
+      if (nrf_send_command(dev, (NRF_CMD_W_REGISTER | (NRF_COMMAND)NRF_RX_ADDR_P1), address, rx,
+..\Src\NRF24L01.c(490): warning:  #188-D: enumerated type mixed with another type
+      if (nrf_send_command(dev, (NRF_CMD_W_REGISTER | (NRF_COMMAND)NRF_TX_ADDR), address, rx,
+..\Src\NRF24L01.c: 6 warnings, 0 errors
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling main.c...
+../Src/main.c(134): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i;
+../Src/main.c: 1 warning, 0 errors
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_spi.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_dma.c...
+linking...
+Program Size: Code=7054 RO-data=302 RW-data=20 ZI-data=1748  
+FromELF: creating hex file...
+"Project_NRF24L01\Project_NRF24L01.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Project_NRF24L01
+  D:\data\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  D:\data\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
